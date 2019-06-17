@@ -1,0 +1,4342 @@
+[
+  {
+    "name": "Bethnal Green",
+    "id": "s-910gbthnlgr",
+    "pos": {
+      "left": 859.7152099609375,
+      "top": 553.61474609375
+    },
+    "x": 860,
+    "y": 555
+  },
+  {
+    "name": "Cambridge Heath",
+    "id": "s-910gcamhth",
+    "pos": {
+      "left": 871.5202026367188,
+      "top": 541.7998962402344
+    },
+    "x": 875,
+    "y": 545
+  },
+  {
+    "name": "London Fields",
+    "id": "s-910glonflds",
+    "pos": {
+      "left": 876.7611083984375,
+      "top": 531.5079956054688
+    },
+    "x": 880,
+    "y": 535
+  },
+  {
+    "name": "Rectory Road",
+    "id": "s-910grctryrd",
+    "pos": {
+      "left": 863.2711181640625,
+      "top": 474.08367919921875
+    },
+    "x": 865,
+    "y": 475
+  },
+  {
+    "name": "Wood Street",
+    "id": "s-910gwdst",
+    "pos": {
+      "left": 925.8560791015625,
+      "top": 372.34523010253906
+    },
+    "x": 930,
+    "y": 375
+  },
+  {
+    "name": "Bruce Grove",
+    "id": "s-910gbrucgrv",
+    "pos": {
+      "left": 833.8663330078125,
+      "top": 372.0921936035156
+    },
+    "x": 835,
+    "y": 375
+  },
+  {
+    "name": "White Hart Lane",
+    "id": "s-910gwhhrtla",
+    "pos": {
+      "left": 833.8663330078125,
+      "top": 357.92189025878906
+    },
+    "x": 835,
+    "y": 360
+  },
+  {
+    "name": "Silver Street",
+    "id": "s-910gsivrst",
+    "pos": {
+      "left": 833.8663330078125,
+      "top": 342.6129150390625
+    },
+    "x": 835,
+    "y": 345
+  },
+  {
+    "name": "Southbury",
+    "id": "s-910gsbury",
+    "pos": {
+      "left": 845.34521484375,
+      "top": 304.44583892822266
+    },
+    "x": 850,
+    "y": 305
+  },
+  {
+    "name": "Turkey Street",
+    "id": "s-910gturkyst",
+    "pos": {
+      "left": 861.6641235351562,
+      "top": 288.07472229003906
+    },
+    "x": 865,
+    "y": 290
+  },
+  {
+    "name": "Theobalds Grove",
+    "id": "s-910gthbldsg",
+    "pos": {
+      "left": 877.3988037109375,
+      "top": 272.21671295166016
+    },
+    "x": 880,
+    "y": 275
+  },
+  {
+    "name": "Enfield Town",
+    "id": "s-910genfldtn",
+    "pos": {
+      "left": 828.1722412109375,
+      "top": 267.5862731933594
+    },
+    "x": 830,
+    "y": 270
+  },
+  {
+    "name": "Stamford Hill",
+    "id": "s-910gstmfdhl",
+    "pos": {
+      "left": 833.8663330078125,
+      "top": 437.12371826171875
+    },
+    "x": 835,
+    "y": 440
+  },
+  {
+    "name": "Bush Hill Park",
+    "id": "s-910gbhillpk",
+    "pos": {
+      "left": 828.1722412109375,
+      "top": 285.0460968017578
+    },
+    "x": 830,
+    "y": 290
+  },
+  {
+    "name": "Highams Park",
+    "id": "s-910ghghmspk",
+    "pos": {
+      "left": 920.1619873046875,
+      "top": 338.43772888183594
+    },
+    "x": 925,
+    "y": 340
+  },
+  {
+    "name": "Chingford",
+    "id": "s-910gchingfd",
+    "pos": {
+      "left": 920.1619873046875,
+      "top": 307.44022369384766
+    },
+    "x": 925,
+    "y": 310
+  },
+  {
+    "name": "Clapton",
+    "id": "s-910gclapton",
+    "pos": {
+      "left": 895.534912109375,
+      "top": 469.9927978515625
+    },
+    "x": 900,
+    "y": 470
+  },
+  {
+    "name": "St James Street",
+    "id": "s-910gstjmsst",
+    "pos": {
+      "left": 906.364990234375,
+      "top": 459.2781677246094
+    },
+    "x": 910,
+    "y": 460
+  },
+  {
+    "name": "Stoke Newington",
+    "id": "s-910gstknwng",
+    "pos": {
+      "left": 846.1268920898438,
+      "top": 456.9654846191406
+    },
+    "x": 850,
+    "y": 460
+  },
+  {
+    "name": "Hackney Downs",
+    "id": "s-910ghaknynm",
+    "pos": {
+      "left": 870.9722290039062,
+      "top": 497.37908935546875
+    },
+    "x": 875,
+    "y": 500
+  },
+  {
+    "name": "Edmonton Green",
+    "id": "s-910gedmngrn",
+    "pos": {
+      "left": 828.1722412109375,
+      "top": 324.26744842529297
+    },
+    "x": 830,
+    "y": 325
+  },
+  {
+    "name": "Cheshunt",
+    "id": "s-910gcheshnt",
+    "pos": {
+      "left": 886.2510986328125,
+      "top": 254.4281463623047
+    },
+    "x": 890,
+    "y": 255
+  },
+  {
+    "name": "Ilford",
+    "id": "s-910gilford",
+    "pos": {
+      "left": 1073.1358642578125,
+      "top": 439.1397247314453
+    },
+    "x": 1075,
+    "y": 440
+  },
+  {
+    "name": "Goodmayes",
+    "id": "s-910ggodmays",
+    "pos": {
+      "left": 1096.92578125,
+      "top": 415.34552001953125
+    },
+    "x": 1100,
+    "y": 420
+  },
+  {
+    "name": "Chadwell Heath",
+    "id": "s-910gchdwlht",
+    "pos": {
+      "left": 1113.251953125,
+      "top": 389.6785430908203
+    },
+    "x": 1115,
+    "y": 390
+  },
+  {
+    "name": "Romford",
+    "id": "s-910gromford",
+    "pos": {
+      "left": 1132.4849853515625,
+      "top": 370.4474182128906
+    },
+    "x": 1135,
+    "y": 375
+  },
+  {
+    "name": "Gidea Park",
+    "id": "s-910ggideapk",
+    "pos": {
+      "left": 1155.211181640625,
+      "top": 356.9525146484375
+    },
+    "x": 1160,
+    "y": 360
+  },
+  {
+    "name": "Harold Wood",
+    "id": "s-910ghrldwod",
+    "pos": {
+      "left": 1167.7265625,
+      "top": 344.41400146484375
+    },
+    "x": 1170,
+    "y": 345
+  },
+  {
+    "name": "Shenfield",
+    "id": "s-910gshenfld",
+    "pos": {
+      "left": 1214.9847412109375,
+      "top": 288.08258056640625
+    },
+    "x": 1215,
+    "y": 290
+  },
+  {
+    "name": "Brentwood",
+    "id": "s-910gbrtwood",
+    "pos": {
+      "left": 1192.4617919921875,
+      "top": 310.47672271728516
+    },
+    "x": 1195,
+    "y": 315
+  },
+  {
+    "name": "Seven Kings",
+    "id": "s-910gsvnkngs",
+    "pos": {
+      "left": 1084.8922119140625,
+      "top": 427.3689270019531
+    },
+    "x": 1085,
+    "y": 430
+  },
+  {
+    "name": "Emerson Park",
+    "id": "s-910gemrspkh",
+    "pos": {
+      "left": 1157.5386962890625,
+      "top": 395.49847412109375
+    },
+    "x": 1160,
+    "y": 400
+  },
+  {
+    "name": "Maryland",
+    "id": "s-910gmryland",
+    "pos": {
+      "left": 1020.6994018554688,
+      "top": 491.4446105957031
+    },
+    "x": 1025,
+    "y": 495
+  },
+  {
+    "name": "Manor Park",
+    "id": "s-910gmanrpk",
+    "pos": {
+      "left": 1060.5657958984375,
+      "top": 451.60987854003906
+    },
+    "x": 1065,
+    "y": 455
+  },
+  {
+    "name": "Forest Gate",
+    "id": "s-910gfrstgt",
+    "pos": {
+      "left": 1038.62890625,
+      "top": 464.2307434082031
+    },
+    "x": 1040,
+    "y": 465
+  },
+  {
+    "name": "Chorleywood",
+    "id": "s-940gzzlucyd",
+    "pos": {
+      "left": 148.68817138671875,
+      "top": 295.67381286621094
+    },
+    "x": 150,
+    "y": 300
+  },
+  {
+    "name": "Rickmansworth",
+    "id": "s-940gzzlurkw",
+    "pos": {
+      "left": 167.86338806152344,
+      "top": 317.80831146240234
+    },
+    "x": 170,
+    "y": 320
+  },
+  {
+    "name": "Chesham",
+    "id": "s-940gzzlucsm",
+    "pos": {
+      "left": 65.68226623535156,
+      "top": 267.8393096923828
+    },
+    "x": 70,
+    "y": 270
+  },
+  {
+    "name": "Amersham",
+    "id": "s-940gzzluams",
+    "pos": {
+      "left": 41.261322021484375,
+      "top": 282.383544921875
+    },
+    "x": 45,
+    "y": 285
+  },
+  {
+    "name": "Chalfont & Latimer",
+    "id": "s-940gzzlucal",
+    "pos": {
+      "left": 107.3117446899414,
+      "top": 282.26265716552734
+    },
+    "x": 110,
+    "y": 285
+  },
+  {
+    "name": "Moor Park",
+    "id": "s-940gzzlumpk",
+    "pos": {
+      "left": 190.7762908935547,
+      "top": 334.00177001953125
+    },
+    "x": 195,
+    "y": 335
+  },
+  {
+    "name": "Watford",
+    "id": "s-940gzzluwaf",
+    "pos": {
+      "left": 179.5623016357422,
+      "top": 290.48648834228516
+    },
+    "x": 180,
+    "y": 295
+  },
+  {
+    "name": "Croxley",
+    "id": "s-940gzzlucxy",
+    "pos": {
+      "left": 184.24403381347656,
+      "top": 308.9584655761719
+    },
+    "x": 185,
+    "y": 310
+  },
+  {
+    "name": "Northwood",
+    "id": "s-940gzzlunow",
+    "pos": {
+      "left": 204.46083068847656,
+      "top": 347.6540832519531
+    },
+    "x": 205,
+    "y": 350
+  },
+  {
+    "name": "Northwood Hills",
+    "id": "s-940gzzlunwh",
+    "pos": {
+      "left": 218.12437438964844,
+      "top": 361.3185577392578
+    },
+    "x": 220,
+    "y": 365
+  },
+  {
+    "name": "Pinner",
+    "id": "s-940gzzlupnr",
+    "pos": {
+      "left": 228.15110778808594,
+      "top": 374.7490997314453
+    },
+    "x": 230,
+    "y": 375
+  },
+  {
+    "name": "North Harrow",
+    "id": "s-940gzzlunha",
+    "pos": {
+      "left": 244.86468505859375,
+      "top": 388.1385192871094
+    },
+    "x": 245,
+    "y": 390
+  },
+  {
+    "name": "Northwick Park",
+    "id": "s-940gzzlunkp",
+    "pos": {
+      "left": 312.9284362792969,
+      "top": 415.109130859375
+    },
+    "x": 315,
+    "y": 420
+  },
+  {
+    "name": "West Harrow",
+    "id": "s-940gzzluwhw",
+    "pos": {
+      "left": 245.6127166748047,
+      "top": 415.109130859375
+    },
+    "x": 250,
+    "y": 420
+  },
+  {
+    "name": "Ickenham",
+    "id": "s-940gzzluick",
+    "pos": {
+      "left": 115.2833480834961,
+      "top": 377.7856140136719
+    },
+    "x": 120,
+    "y": 380
+  },
+  {
+    "name": "Uxbridge",
+    "id": "s-940gzzluuxb",
+    "pos": {
+      "left": 66.18840026855469,
+      "top": 370.7004699707031
+    },
+    "x": 70,
+    "y": 375
+  },
+  {
+    "name": "Hillingdon",
+    "id": "s-940gzzluhgd",
+    "pos": {
+      "left": 91.87467956542969,
+      "top": 370.7004699707031
+    },
+    "x": 95,
+    "y": 375
+  },
+  {
+    "name": "Ruislip",
+    "id": "s-940gzzlursp",
+    "pos": {
+      "left": 149.32081604003906,
+      "top": 373.10435485839844
+    },
+    "x": 150,
+    "y": 375
+  },
+  {
+    "name": "Ruislip Manor",
+    "id": "s-940gzzlursm",
+    "pos": {
+      "left": 173.64073181152344,
+      "top": 378.77345275878906
+    },
+    "x": 175,
+    "y": 380
+  },
+  {
+    "name": "Eastcote",
+    "id": "s-940gzzlueae",
+    "pos": {
+      "left": 188.41761779785156,
+      "top": 393.5996398925781
+    },
+    "x": 190,
+    "y": 395
+  },
+  {
+    "name": "Harrow-on-the- Hill",
+    "id": "s-940gzzluhoh",
+    "pos": {
+      "left": 275.474609375,
+      "top": 409.41575622558594
+    },
+    "x": 280,
+    "y": 410
+  },
+  {
+    "name": "Preston Road",
+    "id": "s-940gzzluprd",
+    "pos": {
+      "left": 355.5702209472656,
+      "top": 410.4279022216797
+    },
+    "x": 360,
+    "y": 415
+  },
+  {
+    "name": "Wembley Park",
+    "id": "s-940gzzluwyp",
+    "pos": {
+      "left": 399.0976867675781,
+      "top": 425.6103515625
+    },
+    "x": 400,
+    "y": 430
+  },
+  {
+    "name": "Stanmore",
+    "id": "s-940gzzlustm",
+    "pos": {
+      "left": 392.77099609375,
+      "top": 357.4158172607422
+    },
+    "x": 395,
+    "y": 360
+  },
+  {
+    "name": "Canons Park",
+    "id": "s-940gzzlucpk",
+    "pos": {
+      "left": 398.4649963378906,
+      "top": 376.2673797607422
+    },
+    "x": 400,
+    "y": 380
+  },
+  {
+    "name": "Queensbury",
+    "id": "s-940gzzluqby",
+    "pos": {
+      "left": 398.4649963378906,
+      "top": 391.8293762207031
+    },
+    "x": 400,
+    "y": 395
+  },
+  {
+    "name": "Kingsbury",
+    "id": "s-940gzzlukby",
+    "pos": {
+      "left": 392.64447021484375,
+      "top": 403.975341796875
+    },
+    "x": 395,
+    "y": 405
+  },
+  {
+    "name": "Neasden",
+    "id": "s-940gzzlundn",
+    "pos": {
+      "left": 416.9676818847656,
+      "top": 440.3739318847656
+    },
+    "x": 420,
+    "y": 445
+  },
+  {
+    "name": "Dollis Hill",
+    "id": "s-940gzzludoh",
+    "pos": {
+      "left": 430.4559631347656,
+      "top": 453.6653747558594
+    },
+    "x": 435,
+    "y": 455
+  },
+  {
+    "name": "Willesden Green",
+    "id": "s-940gzzluwig",
+    "pos": {
+      "left": 443.996826171875,
+      "top": 467.1938171386719
+    },
+    "x": 445,
+    "y": 470
+  },
+  {
+    "name": "Kilburn",
+    "id": "s-940gzzlukbn",
+    "pos": {
+      "left": 453.7601318359375,
+      "top": 480.2671813964844
+    },
+    "x": 455,
+    "y": 485
+  },
+  {
+    "name": "Baker Street",
+    "id": "s-940gzzlubst",
+    "pos": {
+      "left": 520.7279052734375,
+      "top": 560.7658996582031
+    },
+    "x": 525,
+    "y": 565
+  },
+  {
+    "name": "Aldgate",
+    "id": "s-940gzzluald",
+    "pos": {
+      "left": 804.1309814453125,
+      "top": 644.4907836914062
+    },
+    "x": 805,
+    "y": 645
+  },
+  {
+    "name": "Barbican",
+    "id": "s-940gzzlubbn",
+    "pos": {
+      "left": 707.223388671875,
+      "top": 599.4699401855469
+    },
+    "x": 710,
+    "y": 600
+  },
+  {
+    "name": "Great Portland Street",
+    "id": "s-940gzzlugps",
+    "pos": {
+      "left": 562.0726318359375,
+      "top": 565.2889709472656
+    },
+    "x": 565,
+    "y": 565
+  },
+  {
+    "name": "Farringdon",
+    "id": "s-940gzzlufcn",
+    "pos": {
+      "left": 686.0753784179688,
+      "top": 578.953125
+    },
+    "x": 690,
+    "y": 580
+  },
+  {
+    "name": "Liverpool Street",
+    "id": "s-940gzzlulvt",
+    "pos": {
+      "left": 760.9830932617188,
+      "top": 602.6124877929688
+    },
+    "x": 765,
+    "y": 615
+  },
+  {
+    "name": "Moorgate",
+    "id": "s-940gzzlumgt",
+    "pos": {
+      "left": 729.9824829101562,
+      "top": 613.7463073730469
+    },
+    "x": 730,
+    "y": 615
+  },
+  {
+    "name": "King’s Cross St Pancras",
+    "id": "s-940gzzluksx",
+    "pos": {
+      "left": 655.5808715820312,
+      "top": 561.2402954101562
+    },
+    "x": 660,
+    "y": 565
+  },
+  {
+    "name": "Euston Square",
+    "id": "s-940gzzluesq",
+    "pos": {
+      "left": 632.8047485351562,
+      "top": 564.2767944335938
+    },
+    "x": 635,
+    "y": 565
+  },
+  {
+    "name": "Mansion House",
+    "id": "s-940gzzlumsh",
+    "pos": {
+      "left": 693.7265625,
+      "top": 699.4119262695312
+    },
+    "x": 695,
+    "y": 700
+  },
+  {
+    "name": "Monument",
+    "id": "s-940gzzlummt"
+  },
+  {
+    "name": "South Kensington",
+    "id": "s-940gzzlusks",
+    "pos": {
+      "left": 458.3152770996094,
+      "top": 719.3909301757812
+    },
+    "x": 460,
+    "y": 720
+  },
+  {
+    "name": "Sloane Square",
+    "id": "s-940gzzlussq",
+    "pos": {
+      "left": 496.7814025878906,
+      "top": 731.2838745117188
+    },
+    "x": 500,
+    "y": 735
+  },
+  {
+    "name": "Cannon Street",
+    "id": "s-940gzzlucst",
+    "pos": {
+      "left": 705.1817626953125,
+      "top": 683.4590759277344
+    },
+    "x": 710,
+    "y": 685
+  },
+  {
+    "name": "Westminster",
+    "id": "s-940gzzluwsm",
+    "pos": {
+      "left": 577.7627563476562,
+      "top": 726.8555908203125
+    },
+    "x": 580,
+    "y": 730
+  },
+  {
+    "name": "Gloucester Road",
+    "id": "s-940gzzlugtr",
+    "pos": {
+      "left": 443.5108947753906,
+      "top": 729.3860473632812
+    },
+    "x": 445,
+    "y": 730
+  },
+  {
+    "name": "St James’s Park",
+    "id": "s-940gzzlusjp",
+    "pos": {
+      "left": 549.7988891601562,
+      "top": 729.3860473632812
+    },
+    "x": 550,
+    "y": 730
+  },
+  {
+    "name": "Temple",
+    "id": "s-940gzzlutmp",
+    "pos": {
+      "left": 652.4174194335938,
+      "top": 729.3860473632812
+    },
+    "x": 655,
+    "y": 730
+  },
+  {
+    "name": "Embankment",
+    "id": "s-940gzzluemb"
+  },
+  {
+    "name": "Blackfriars",
+    "id": "s-940gzzlubkf",
+    "pos": {
+      "left": 678.3568115234375,
+      "top": 710.2814331054688
+    },
+    "x": 680,
+    "y": 715
+  },
+  {
+    "name": "Bayswater",
+    "id": "s-940gzzlubwt",
+    "pos": {
+      "left": 421.8736877441406,
+      "top": 611.3424072265625
+    },
+    "x": 425,
+    "y": 615
+  },
+  {
+    "name": "High Street Kensington",
+    "id": "s-940gzzluhsk",
+    "pos": {
+      "left": 421.8736877441406,
+      "top": 684.9773559570312
+    },
+    "x": 425,
+    "y": 685
+  },
+  {
+    "name": "Notting Hill Gate",
+    "id": "s-940gzzlunhg",
+    "pos": {
+      "left": 417.5715637207031,
+      "top": 650.943359375
+    },
+    "x": 420,
+    "y": 655
+  },
+  {
+    "name": "Paddington",
+    "id": "s-940gzzlupac",
+    "pos": {
+      "left": 401.7865295410156,
+      "top": 551.9093933105469
+    },
+    "x": 405,
+    "y": 565
+  },
+  {
+    "name": "Edgware Road",
+    "id": "s-940gzzluerc",
+    "pos": {
+      "left": 452.2416687011719,
+      "top": 559.8486022949219
+    },
+    "x": 455,
+    "y": 565
+  },
+  {
+    "name": "Watford High Street",
+    "id": "s-910gwatfdhs",
+    "pos": {
+      "left": 337.3493957519531,
+      "top": 286.0582733154297
+    },
+    "x": 340,
+    "y": 290
+  },
+  {
+    "name": "Carpenders Park",
+    "id": "s-910gcrpndpk",
+    "pos": {
+      "left": 331.6554260253906,
+      "top": 318.06795501708984
+    },
+    "x": 335,
+    "y": 320
+  },
+  {
+    "name": "Hatch End",
+    "id": "s-910ghtchend",
+    "pos": {
+      "left": 337.3493957519531,
+      "top": 338.18470764160156
+    },
+    "x": 340,
+    "y": 340
+  },
+  {
+    "name": "Kenton",
+    "id": "s-940gzzluken",
+    "pos": {
+      "left": 334.4391174316406,
+      "top": 388.16029357910156
+    },
+    "x": 335,
+    "y": 390
+  },
+  {
+    "name": "Headstone Lane",
+    "id": "s-910ghedstnl",
+    "pos": {
+      "left": 337.3493957519531,
+      "top": 354.88539123535156
+    },
+    "x": 340,
+    "y": 355
+  },
+  {
+    "name": "Harrow & Wealdstone",
+    "id": "s-940gzzluhaw",
+    "pos": {
+      "left": 330.1369934082031,
+      "top": 365.51312255859375
+    },
+    "x": 335,
+    "y": 370
+  },
+  {
+    "name": "Bushey",
+    "id": "s-910gbushey",
+    "pos": {
+      "left": 331.6554260253906,
+      "top": 301.36724853515625
+    },
+    "x": 335,
+    "y": 305
+  },
+  {
+    "name": "Watford Junction",
+    "id": "s-910gwatfdj",
+    "pos": {
+      "left": 331.6554260253906,
+      "top": 264.54978942871094
+    },
+    "x": 335,
+    "y": 265
+  },
+  {
+    "name": "North Wembley",
+    "id": "s-940gzzlunwy",
+    "pos": {
+      "left": 329.75738525390625,
+      "top": 446.6127624511719
+    },
+    "x": 330,
+    "y": 450
+  },
+  {
+    "name": "South Kenton",
+    "id": "s-940gzzluskt",
+    "pos": {
+      "left": 329.75738525390625,
+      "top": 434.7198181152344
+    },
+    "x": 330,
+    "y": 435
+  },
+  {
+    "name": "Kensal Green",
+    "id": "s-940gzzluksl",
+    "pos": {
+      "left": 334.4391174316406,
+      "top": 511.644287109375
+    },
+    "x": 335,
+    "y": 515
+  },
+  {
+    "name": "Queen’s Park",
+    "id": "s-940gzzluqps",
+    "pos": {
+      "left": 330.1369934082031,
+      "top": 520.3685607910156
+    },
+    "x": 335,
+    "y": 525
+  },
+  {
+    "name": "Stonebridge Park",
+    "id": "s-940gzzlusgp",
+    "pos": {
+      "left": 329.75738525390625,
+      "top": 469.7659912109375
+    },
+    "x": 330,
+    "y": 470
+  },
+  {
+    "name": "Harlesden",
+    "id": "s-940gzzluhsn",
+    "pos": {
+      "left": 329.75738525390625,
+      "top": 481.2793884277344
+    },
+    "x": 330,
+    "y": 485
+  },
+  {
+    "name": "Willesden Junction",
+    "id": "s-940gzzluwjn",
+    "pos": {
+      "left": 330.2635498046875,
+      "top": 495.1966247558594
+    },
+    "x": 335,
+    "y": 500
+  },
+  {
+    "name": "Wembley Central",
+    "id": "lul-bakerloo"
+  },
+  {
+    "name": "Kilburn Park",
+    "id": "s-940gzzlukpk",
+    "pos": {
+      "left": 333.7569274902344,
+      "top": 542.377197265625
+    },
+    "x": 335,
+    "y": 545
+  },
+  {
+    "name": "Marylebone",
+    "id": "s-940gzzlumyb",
+    "pos": {
+      "left": 473.75238037109375,
+      "top": 551.8777770996094
+    },
+    "x": 475,
+    "y": 555
+  },
+  {
+    "name": "Warwick Avenue",
+    "id": "s-940gzzluwka",
+    "pos": {
+      "left": 361.26422119140625,
+      "top": 557.5711975097656
+    },
+    "x": 365,
+    "y": 560
+  },
+  {
+    "name": "Maida Vale",
+    "id": "s-940gzzlumvl",
+    "pos": {
+      "left": 344.141357421875,
+      "top": 552.765380859375
+    },
+    "x": 345,
+    "y": 555
+  },
+  {
+    "name": "Edgware Road",
+    "id": "s-940gzzluerb",
+    "pos": {
+      "left": 436.2984619140625,
+      "top": 552.8899841308594
+    },
+    "x": 440,
+    "y": 555
+  },
+  {
+    "name": "Elephant & Castle",
+    "id": "s-940gzzlueac",
+    "pos": {
+      "left": 619.5187377929688,
+      "top": 850.9722290039062
+    },
+    "x": 620,
+    "y": 855
+  },
+  {
+    "name": "Regent’s Park",
+    "id": "s-940gzzlurgp",
+    "pos": {
+      "left": 539.4013671875,
+      "top": 596.1715698242188
+    },
+    "x": 540,
+    "y": 600
+  },
+  {
+    "name": "Oxford Circus",
+    "id": "s-940gzzluoxc",
+    "pos": {
+      "left": 552.2030029296875,
+      "top": 625.8922729492188
+    },
+    "x": 555,
+    "y": 630
+  },
+  {
+    "name": "Piccadilly Circus",
+    "id": "s-940gzzlupcc",
+    "pos": {
+      "left": 577.0035400390625,
+      "top": 667.0114135742188
+    },
+    "x": 580,
+    "y": 670
+  },
+  {
+    "name": "Charing Cross",
+    "id": "s-940gzzluchx",
+    "pos": {
+      "left": 603.8285522460938,
+      "top": 693.8337707519531
+    },
+    "x": 605,
+    "y": 695
+  },
+  {
+    "name": "Euston",
+    "id": "s-940gzzlueus",
+    "pos": {
+      "left": 607.4981079101562,
+      "top": 545.6782836914062
+    },
+    "x": 610,
+    "y": 550
+  },
+  {
+    "name": "Perivale",
+    "id": "s-940gzzlupvl",
+    "pos": {
+      "left": 175.91415405273438,
+      "top": 563.532958984375
+    },
+    "x": 180,
+    "y": 565
+  },
+  {
+    "name": "Hanger Lane",
+    "id": "s-940gzzluhgr",
+    "pos": {
+      "left": 200.77444458007812,
+      "top": 588.3195495605469
+    },
+    "x": 205,
+    "y": 590
+  },
+  {
+    "name": "Ruislip Gardens",
+    "id": "s-940gzzlursg",
+    "pos": {
+      "left": 130.46734619140625,
+      "top": 418.9047546386719
+    },
+    "x": 135,
+    "y": 420
+  },
+  {
+    "name": "South Ruislip",
+    "id": "s-940gzzlusrp",
+    "pos": {
+      "left": 129.5816192626953,
+      "top": 451.80010986328125
+    },
+    "x": 130,
+    "y": 455
+  },
+  {
+    "name": "Greenford",
+    "id": "s-940gzzlugfd",
+    "pos": {
+      "left": 144.8921661376953,
+      "top": 529.4836730957031
+    },
+    "x": 145,
+    "y": 530
+  },
+  {
+    "name": "Northolt",
+    "id": "s-940gzzlunht",
+    "pos": {
+      "left": 130.46734619140625,
+      "top": 491.14794921875
+    },
+    "x": 135,
+    "y": 495
+  },
+  {
+    "name": "West Ruislip",
+    "id": "s-940gzzluwrp",
+    "pos": {
+      "left": 129.5816192626953,
+      "top": 349.571533203125
+    },
+    "x": 130,
+    "y": 350
+  },
+  {
+    "name": "Ealing Broadway",
+    "id": "s-940gzzlueby",
+    "pos": {
+      "left": 196.2646942138672,
+      "top": 641.7073364257812
+    },
+    "x": 200,
+    "y": 645
+  },
+  {
+    "name": "West Acton",
+    "id": "s-940gzzluwta",
+    "pos": {
+      "left": 242.7024383544922,
+      "top": 656.5102233886719
+    },
+    "x": 245,
+    "y": 660
+  },
+  {
+    "name": "Bond Street",
+    "id": "s-940gzzlubnd",
+    "pos": {
+      "left": 503.10809326171875,
+      "top": 626.3983154296875
+    },
+    "x": 505,
+    "y": 630
+  },
+  {
+    "name": "North Acton",
+    "id": "s-940gzzlunan",
+    "pos": {
+      "left": 289.0136413574219,
+      "top": 656.5102233886719
+    },
+    "x": 290,
+    "y": 660
+  },
+  {
+    "name": "Queensway",
+    "id": "s-940gzzluqwy",
+    "pos": {
+      "left": 453.8865966796875,
+      "top": 656.5102233886719
+    },
+    "x": 455,
+    "y": 660
+  },
+  {
+    "name": "Marble Arch",
+    "id": "s-940gzzlumba",
+    "pos": {
+      "left": 486.6607360839844,
+      "top": 636.1676940917969
+    },
+    "x": 490,
+    "y": 640
+  },
+  {
+    "name": "East Acton",
+    "id": "s-940gzzluean",
+    "pos": {
+      "left": 310.0181884765625,
+      "top": 651.7024230957031
+    },
+    "x": 315,
+    "y": 655
+  },
+  {
+    "name": "White City",
+    "id": "s-940gzzluwcy",
+    "pos": {
+      "left": 334.5972900390625,
+      "top": 650.7219543457031
+    },
+    "x": 335,
+    "y": 655
+  },
+  {
+    "name": "Shepherd’s Bush",
+    "id": "s-940gzzlusbc",
+    "pos": {
+      "left": 196.2646942138672,
+      "top": 641.7073364257812
+    },
+    "x": 200,
+    "y": 645
+  },
+  {
+    "name": "Tottenham Court Road",
+    "id": "s-940gzzlutcr",
+    "pos": {
+      "left": 596.110107421875,
+      "top": 626.3983154296875
+    },
+    "x": 600,
+    "y": 630
+  },
+  {
+    "name": "Bethnal Green",
+    "id": "s-940gzzlublg",
+    "pos": {
+      "left": 871.193603515625,
+      "top": 574.5249328613281
+    },
+    "x": 875,
+    "y": 575
+  },
+  {
+    "name": "Mile End",
+    "id": "s-940gzzlumed",
+    "pos": {
+      "left": 906.3699340820312,
+      "top": 575.031005859375
+    },
+    "x": 910,
+    "y": 580
+  },
+  {
+    "name": "Holborn",
+    "id": "s-940gzzluhbn",
+    "pos": {
+      "left": 634.9557495117188,
+      "top": 626.3983459472656
+    },
+    "x": 635,
+    "y": 630
+  },
+  {
+    "name": "St Paul’s",
+    "id": "s-940gzzluspu",
+    "pos": {
+      "left": 697.46337890625,
+      "top": 656.5102233886719
+    },
+    "x": 700,
+    "y": 660
+  },
+  {
+    "name": "Bank",
+    "id": "s-940gzzlubnk",
+    "pos": {
+      "left": 717.6887817382812,
+      "top": 650.5953979492188
+    },
+    "x": 720,
+    "y": 655
+  },
+  {
+    "name": "Chancery Lane",
+    "id": "s-940gzzluchl",
+    "pos": {
+      "left": 678.454833984375,
+      "top": 638.3319702148438
+    },
+    "x": 680,
+    "y": 640
+  },
+  {
+    "name": "Leytonstone",
+    "id": "s-940gzzlulys",
+    "pos": {
+      "left": 997.2208251953125,
+      "top": 438.5154266357422
+    },
+    "x": 1000,
+    "y": 440
+  },
+  {
+    "name": "Leyton",
+    "id": "s-940gzzlulyn",
+    "pos": {
+      "left": 997.2208251953125,
+      "top": 476.85113525390625
+    },
+    "x": 1000,
+    "y": 480
+  },
+  {
+    "name": "Redbridge",
+    "id": "s-940gzzlurbg",
+    "pos": {
+      "left": 1029.739990234375,
+      "top": 416.75392150878906
+    },
+    "x": 1030,
+    "y": 420
+  },
+  {
+    "name": "Gants Hill",
+    "id": "s-940gzzlugth",
+    "pos": {
+      "left": 1047.2015380859375,
+      "top": 421.43516540527344
+    },
+    "x": 1050,
+    "y": 425
+  },
+  {
+    "name": "Wanstead",
+    "id": "s-940gzzluwsd",
+    "pos": {
+      "left": 1012.2783813476562,
+      "top": 421.43516540527344
+    },
+    "x": 1015,
+    "y": 425
+  },
+  {
+    "name": "Stratford",
+    "id": "s-940gzzlustd",
+    "pos": {
+      "left": 981.9102172851562,
+      "top": 509.1138610839844
+    },
+    "x": 985,
+    "y": 510
+  },
+  {
+    "name": "Woodford",
+    "id": "s-940gzzluwof",
+    "pos": {
+      "left": 991.52685546875,
+      "top": 359.69317626953125
+    },
+    "x": 995,
+    "y": 360
+  },
+  {
+    "name": "South Woodford",
+    "id": "s-940gzzluswf",
+    "pos": {
+      "left": 997.2208251953125,
+      "top": 378.0386505126953
+    },
+    "x": 1000,
+    "y": 380
+  },
+  {
+    "name": "Snaresbrook",
+    "id": "s-940gzzlusnb",
+    "pos": {
+      "left": 997.2208251953125,
+      "top": 393.0945739746094
+    },
+    "x": 1000,
+    "y": 395
+  },
+  {
+    "name": "Hainault",
+    "id": "s-940gzzluhlt",
+    "pos": {
+      "left": 1052.009765625,
+      "top": 357.289306640625
+    },
+    "x": 1055,
+    "y": 360
+  },
+  {
+    "name": "Fairlop",
+    "id": "s-940gzzluflp",
+    "pos": {
+      "left": 1057.7037353515625,
+      "top": 374.8756408691406
+    },
+    "x": 1060,
+    "y": 375
+  },
+  {
+    "name": "Barkingside",
+    "id": "s-940gzzlubke",
+    "pos": {
+      "left": 1057.7037353515625,
+      "top": 388.91941833496094
+    },
+    "x": 1060,
+    "y": 390
+  },
+  {
+    "name": "Newbury Park",
+    "id": "s-940gzzlunbp",
+    "pos": {
+      "left": 1057.7037353515625,
+      "top": 405.87315368652344
+    },
+    "x": 1060,
+    "y": 410
+  },
+  {
+    "name": "Roding Valley",
+    "id": "s-940gzzlurvy",
+    "pos": {
+      "left": 1008.8618774414062,
+      "top": 340.5885925292969
+    },
+    "x": 1010,
+    "y": 345
+  },
+  {
+    "name": "Grange Hill",
+    "id": "s-940gzzluggh",
+    "pos": {
+      "left": 1047.2015380859375,
+      "top": 341.6007385253906
+    },
+    "x": 1050,
+    "y": 345
+  },
+  {
+    "name": "Chigwell",
+    "id": "s-940gzzlucwl",
+    "pos": {
+      "left": 1032.017578125,
+      "top": 346.2820129394531
+    },
+    "x": 1035,
+    "y": 350
+  },
+  {
+    "name": "Theydon Bois",
+    "id": "s-940gzzluthb",
+    "pos": {
+      "left": 997.2208251953125,
+      "top": 271.0023193359375
+    },
+    "x": 1000,
+    "y": 275
+  },
+  {
+    "name": "Epping",
+    "id": "s-940gzzluepg",
+    "pos": {
+      "left": 991.52685546875,
+      "top": 254.4281463623047
+    },
+    "x": 995,
+    "y": 255
+  },
+  {
+    "name": "Debden",
+    "id": "s-940gzzludbn",
+    "pos": {
+      "left": 997.2208251953125,
+      "top": 284.033935546875
+    },
+    "x": 1000,
+    "y": 285
+  },
+  {
+    "name": "Loughton",
+    "id": "s-940gzzlulgn",
+    "pos": {
+      "left": 997.2208251953125,
+      "top": 297.1920700073242
+    },
+    "x": 1000,
+    "y": 300
+  },
+  {
+    "name": "Buckhurst Hill",
+    "id": "s-940gzzlubkh",
+    "pos": {
+      "left": 991.52685546875,
+      "top": 307.1871795654297
+    },
+    "x": 995,
+    "y": 310
+  },
+  {
+    "name": "Shepherd’s Bush Market",
+    "id": "s-940gzzlusbm",
+    "pos": {
+      "left": 345.8271179199219,
+      "top": 685.989501953125
+    },
+    "x": 350,
+    "y": 690
+  },
+  {
+    "name": "Goldhawk Road",
+    "id": "s-940gzzlughk",
+    "pos": {
+      "left": 345.8271179199219,
+      "top": 701.6780090332031
+    },
+    "x": 350,
+    "y": 705
+  },
+  {
+    "name": "Latimer Road",
+    "id": "s-940gzzlulrd",
+    "pos": {
+      "left": 350.38232421875,
+      "top": 626.7778930664062
+    },
+    "x": 355,
+    "y": 630
+  },
+  {
+    "name": "Ladbroke Grove",
+    "id": "s-940gzzlulad",
+    "pos": {
+      "left": 350.5088806152344,
+      "top": 612.4810791015625
+    },
+    "x": 355,
+    "y": 615
+  },
+  {
+    "name": "Royal Oak",
+    "id": "s-940gzzluryo",
+    "pos": {
+      "left": 368.7123718261719,
+      "top": 582.8553161621094
+    },
+    "x": 370,
+    "y": 585
+  },
+  {
+    "name": "Westbourne Park",
+    "id": "s-940gzzluwsp",
+    "pos": {
+      "left": 356.3255310058594,
+      "top": 595.3504333496094
+    },
+    "x": 360,
+    "y": 600
+  },
+  {
+    "name": "Wood Lane",
+    "id": "s-940gzzluwla",
+    "pos": {
+      "left": 346.20672607421875,
+      "top": 662.4566650390625
+    },
+    "x": 355,
+    "y": 665
+  },
+  {
+    "name": "Hammersmith",
+    "id": "s-940gzzluhsc",
+    "pos": {
+      "left": 346.3276062011719,
+      "top": 709.90185546875
+    },
+    "x": 350,
+    "y": 710
+  },
+  {
+    "name": "Bow Road",
+    "id": "s-940gzzlubwr",
+    "pos": {
+      "left": 931.2021484375,
+      "top": 582.2744140625
+    },
+    "x": 935,
+    "y": 585
+  },
+  {
+    "name": "West Ham",
+    "id": "s-940gzzluwhm",
+    "pos": {
+      "left": 1006.7108764648438,
+      "top": 582.4957275390625
+    },
+    "x": 1010,
+    "y": 585
+  },
+  {
+    "name": "Whitechapel",
+    "id": "s-940gzzluwpl",
+    "pos": {
+      "left": 840.6041870117188,
+      "top": 608.9701843261719
+    },
+    "x": 845,
+    "y": 610
+  },
+  {
+    "name": "Aldgate East",
+    "id": "s-940gzzluade",
+    "pos": {
+      "left": 827.5712890625,
+      "top": 622.1283264160156
+    },
+    "x": 830,
+    "y": 625
+  },
+  {
+    "name": "Stepney Green",
+    "id": "s-940gzzlusgn",
+    "pos": {
+      "left": 866.5929565429688,
+      "top": 590.2145080566406
+    },
+    "x": 870,
+    "y": 595
+  },
+  {
+    "name": "Bromley-by- Bow",
+    "id": "s-940gzzlubbb",
+    "pos": {
+      "left": 978.7469482421875,
+      "top": 582.6222839355469
+    },
+    "x": 980,
+    "y": 585
+  },
+  {
+    "name": "East Ham",
+    "id": "s-940gzzluehm",
+    "pos": {
+      "left": 1062.1324462890625,
+      "top": 542.3887329101562
+    },
+    "x": 1065,
+    "y": 545
+  },
+  {
+    "name": "Plaistow",
+    "id": "s-940gzzluplw",
+    "pos": {
+      "left": 1034.1502685546875,
+      "top": 577.8941955566406
+    },
+    "x": 1035,
+    "y": 580
+  },
+  {
+    "name": "Upton Park",
+    "id": "s-940gzzluupk",
+    "pos": {
+      "left": 1050.3277587890625,
+      "top": 561.6511840820312
+    },
+    "x": 1055,
+    "y": 565
+  },
+  {
+    "name": "Barking",
+    "id": "s-940gzzlubkg",
+    "pos": {
+      "left": 1075.2919921875,
+      "top": 529.8632202148438
+    },
+    "x": 1080,
+    "y": 530
+  },
+  {
+    "name": "Elm Park",
+    "id": "s-940gzzluepk",
+    "pos": {
+      "left": 1148.42822265625,
+      "top": 458.379150390625
+    },
+    "x": 1150,
+    "y": 460
+  },
+  {
+    "name": "Dagenham East",
+    "id": "s-940gzzludge",
+    "pos": {
+      "left": 1133.1796875,
+      "top": 482.80731201171875
+    },
+    "x": 1135,
+    "y": 485
+  },
+  {
+    "name": "Dagenham Heathway",
+    "id": "s-940gzzludgy",
+    "pos": {
+      "left": 1113.758056640625,
+      "top": 493.0457458496094
+    },
+    "x": 1115,
+    "y": 495
+  },
+  {
+    "name": "Becontree",
+    "id": "s-940gzzlubec",
+    "pos": {
+      "left": 1104.4635009765625,
+      "top": 511.5067138671875
+    },
+    "x": 1105,
+    "y": 515
+  },
+  {
+    "name": "Upney",
+    "id": "s-940gzzluupy",
+    "pos": {
+      "left": 1089.4580078125,
+      "top": 517.3377075195312
+    },
+    "x": 1090,
+    "y": 520
+  },
+  {
+    "name": "Upminster Bridge",
+    "id": "s-940gzzluupb",
+    "pos": {
+      "left": 1176.4500732421875,
+      "top": 439.51707458496094
+    },
+    "x": 1180,
+    "y": 440
+  },
+  {
+    "name": "Hornchurch",
+    "id": "s-940gzzluhch",
+    "pos": {
+      "left": 1163.927978515625,
+      "top": 452.09649658203125
+    },
+    "x": 1165,
+    "y": 455
+  },
+  {
+    "name": "Upminster",
+    "id": "s-940gzzluupm",
+    "pos": {
+      "left": 1185.6290283203125,
+      "top": 421.18212890625
+    },
+    "x": 1190,
+    "y": 425
+  },
+  {
+    "name": "Fulham Broadway",
+    "id": "s-940gzzlufby",
+    "pos": {
+      "left": 401.1221923828125,
+      "top": 799.0987548828125
+    },
+    "x": 405,
+    "y": 800
+  },
+  {
+    "name": "Parsons Green",
+    "id": "s-940gzzlupsg",
+    "pos": {
+      "left": 402.1344909667969,
+      "top": 815.1668701171875
+    },
+    "x": 405,
+    "y": 820
+  },
+  {
+    "name": "Putney Bridge",
+    "id": "s-940gzzlupyb",
+    "pos": {
+      "left": 402.1344909667969,
+      "top": 827.6925048828125
+    },
+    "x": 405,
+    "y": 830
+  },
+  {
+    "name": "East Putney",
+    "id": "s-940gzzluepy",
+    "pos": {
+      "left": 402.1344909667969,
+      "top": 847.6826782226562
+    },
+    "x": 405,
+    "y": 850
+  },
+  {
+    "name": "Southfields",
+    "id": "s-940gzzlusfs",
+    "pos": {
+      "left": 401.1221923828125,
+      "top": 858.4368896484375
+    },
+    "x": 405,
+    "y": 860
+  },
+  {
+    "name": "Wimbledon Park",
+    "id": "s-940gzzluwip",
+    "pos": {
+      "left": 402.1344909667969,
+      "top": 875.896728515625
+    },
+    "x": 405,
+    "y": 880
+  },
+  {
+    "name": "West Brompton",
+    "id": "s-940gzzluwbn",
+    "pos": {
+      "left": 392.1383361816406,
+      "top": 765.4443969726562
+    },
+    "x": 395,
+    "y": 770
+  },
+  {
+    "name": "Wimbledon",
+    "id": "s-940gzzluwim",
+    "pos": {
+      "left": 401.1221923828125,
+      "top": 886.6510009765625
+    },
+    "x": 405,
+    "y": 890
+  },
+  {
+    "name": "Earl’s Court",
+    "id": "s-940gzzluect",
+    "pos": {
+      "left": 408.8351135253906,
+      "top": 728.6268920898438
+    },
+    "x": 410,
+    "y": 730
+  },
+  {
+    "name": "Chiswick Park",
+    "id": "s-940gzzlucwp",
+    "pos": {
+      "left": 243.46163940429688,
+      "top": 734.1937866210938
+    },
+    "x": 245,
+    "y": 735
+  },
+  {
+    "name": "Turnham Green",
+    "id": "s-940gzzlutng",
+    "pos": {
+      "left": 266.9968566894531,
+      "top": 734.1937866210938
+    },
+    "x": 270,
+    "y": 735
+  },
+  {
+    "name": "Stamford Brook",
+    "id": "s-940gzzlusfb",
+    "pos": {
+      "left": 294.7076416015625,
+      "top": 734.1937866210938
+    },
+    "x": 295,
+    "y": 735
+  },
+  {
+    "name": "Ravenscourt Park",
+    "id": "s-940gzzlurvp",
+    "pos": {
+      "left": 326.7205810546875,
+      "top": 734.1937866210938
+    },
+    "x": 330,
+    "y": 735
+  },
+  {
+    "name": "West Kensington",
+    "id": "s-940gzzluwkn",
+    "pos": {
+      "left": 389.1015319824219,
+      "top": 734.1937866210938
+    },
+    "x": 390,
+    "y": 735
+  },
+  {
+    "name": "Barons Court",
+    "id": "s-940gzzlubsc",
+    "pos": {
+      "left": 368.4765625,
+      "top": 729.3860473632812
+    },
+    "x": 370,
+    "y": 730
+  },
+  {
+    "name": "Ealing Common",
+    "id": "s-940gzzluecm",
+    "pos": {
+      "left": 214.9916534423828,
+      "top": 688.8994750976562
+    },
+    "x": 215,
+    "y": 690
+  },
+  {
+    "name": "Gunnersbury",
+    "id": "s-940gzzlugby",
+    "pos": {
+      "left": 245.61273193359375,
+      "top": 758.9918212890625
+    },
+    "x": 250,
+    "y": 760
+  },
+  {
+    "name": "Kew Gardens",
+    "id": "s-940gzzlukwg",
+    "pos": {
+      "left": 245.61273193359375,
+      "top": 793.658447265625
+    },
+    "x": 250,
+    "y": 795
+  },
+  {
+    "name": "Richmond",
+    "id": "s-940gzzlurmd",
+    "pos": {
+      "left": 245.61273193359375,
+      "top": 811.3712768554688
+    },
+    "x": 250,
+    "y": 815
+  },
+  {
+    "name": "Emirates Royal Docks",
+    "id": "s-9400zzalrdk"
+  },
+  {
+    "name": "Emirates Greenwich Peninsula",
+    "id": "s-9400zzalgwp"
+  },
+  {
+    "name": "Canary Wharf",
+    "id": "s-940gzzlucyf",
+    "pos": {
+      "left": 923.3253173828125,
+      "top": 728.5003662109375
+    },
+    "x": 925,
+    "y": 730
+  },
+  {
+    "name": "Canada Water",
+    "id": "s-940gzzlucwr",
+    "pos": {
+      "left": 840.6934814453125,
+      "top": 728.6268920898438
+    },
+    "x": 845,
+    "y": 730
+  },
+  {
+    "name": "Green Park",
+    "id": "s-940gzzlugpk",
+    "pos": {
+      "left": 526.643310546875,
+      "top": 667.0114135742188
+    },
+    "x": 530,
+    "y": 670
+  },
+  {
+    "name": "London Bridge",
+    "id": "s-940gzzlulnb",
+    "pos": {
+      "left": 730.2354125976562,
+      "top": 728.5003662109375
+    },
+    "x": 735,
+    "y": 730
+  },
+  {
+    "name": "Bermondsey",
+    "id": "s-940gzzlubmy",
+    "pos": {
+      "left": 787.1754760742188,
+      "top": 728.5003662109375
+    },
+    "x": 790,
+    "y": 730
+  },
+  {
+    "name": "Southwark",
+    "id": "s-940gzzluswk",
+    "pos": {
+      "left": 640.5176391601562,
+      "top": 772.5294799804688
+    },
+    "x": 645,
+    "y": 775
+  },
+  {
+    "name": "Waterloo",
+    "id": "s-940gzzluwlo",
+    "pos": {
+      "left": 594.8391723632812,
+      "top": 756.8410034179688
+    },
+    "x": 595,
+    "y": 760
+  },
+  {
+    "name": "North Greenwich",
+    "id": "s-940gzzlungw",
+    "pos": {
+      "left": 980.7715454101562,
+      "top": 722.3009033203125
+    },
+    "x": 985,
+    "y": 725
+  },
+  {
+    "name": "Mill Hill East",
+    "id": "s-940gzzlumhl",
+    "pos": {
+      "left": 645.4284057617188,
+      "top": 330.88304138183594
+    },
+    "x": 650,
+    "y": 335
+  },
+  {
+    "name": "High Barnet",
+    "id": "s-940gzzluhbt",
+    "pos": {
+      "left": 664.8176879882812,
+      "top": 290.73951721191406
+    },
+    "x": 665,
+    "y": 295
+  },
+  {
+    "name": "Totteridge & Whetstone",
+    "id": "s-940gzzlutaw"
+  },
+  {
+    "name": "Woodside Park",
+    "id": "s-940gzzluwop",
+    "pos": {
+      "left": 664.8176879882812,
+      "top": 320.8513946533203
+    },
+    "x": 665,
+    "y": 325
+  },
+  {
+    "name": "West Finchley",
+    "id": "s-940gzzluwfn",
+    "pos": {
+      "left": 664.8176879882812,
+      "top": 335.5277557373047
+    },
+    "x": 665,
+    "y": 340
+  },
+  {
+    "name": "Finchley Central",
+    "id": "s-940gzzlufyc",
+    "pos": {
+      "left": 664.8176879882812,
+      "top": 359.31361389160156
+    },
+    "x": 665,
+    "y": 360
+  },
+  {
+    "name": "East Finchley",
+    "id": "s-940gzzluefy",
+    "pos": {
+      "left": 670.51171875,
+      "top": 379.68341064453125
+    },
+    "x": 675,
+    "y": 380
+  },
+  {
+    "name": "Highgate",
+    "id": "s-940gzzluhgt",
+    "pos": {
+      "left": 670.51171875,
+      "top": 395.49847412109375
+    },
+    "x": 675,
+    "y": 400
+  },
+  {
+    "name": "Archway",
+    "id": "s-940gzzluacy",
+    "pos": {
+      "left": 664.8494262695312,
+      "top": 413.1165008544922
+    },
+    "x": 665,
+    "y": 415
+  },
+  {
+    "name": "Kentish Town",
+    "id": "s-940gzzluksh",
+    "pos": {
+      "left": 658.1431274414062,
+      "top": 456.7660827636719
+    },
+    "x": 660,
+    "y": 460
+  },
+  {
+    "name": "Tufnell Park",
+    "id": "s-940gzzlutfp",
+    "pos": {
+      "left": 670.51171875,
+      "top": 448.13099670410156
+    },
+    "x": 675,
+    "y": 450
+  },
+  {
+    "name": "Edgware",
+    "id": "s-940gzzluegw",
+    "pos": {
+      "left": 476.4095764160156,
+      "top": 341.72727966308594
+    },
+    "x": 480,
+    "y": 345
+  },
+  {
+    "name": "Burnt Oak",
+    "id": "s-940gzzlubtk"
+  },
+  {
+    "name": "Colindale",
+    "id": "s-940gzzlucnd"
+  },
+  {
+    "name": "Hendon Central",
+    "id": "s-940gzzluhcl",
+    "pos": {
+      "left": 523.98046875,
+      "top": 389.1724548339844
+    },
+    "x": 525,
+    "y": 390
+  },
+  {
+    "name": "Brent Cross",
+    "id": "s-940gzzlubtx"
+  },
+  {
+    "name": "Golders Green",
+    "id": "s-940gzzluggn",
+    "pos": {
+      "left": 551.9500122070312,
+      "top": 417.25999450683594
+    },
+    "x": 555,
+    "y": 420
+  },
+  {
+    "name": "Hampstead",
+    "id": "s-940gzzluhtd"
+  },
+  {
+    "name": "Belsize Park",
+    "id": "s-940gzzlubzp"
+  },
+  {
+    "name": "Chalk Farm",
+    "id": "s-940gzzlucfm"
+  },
+  {
+    "name": "Camden Town",
+    "id": "s-940gzzluctn",
+    "pos": {
+      "left": 625.7189331054688,
+      "top": 502.0287170410156
+    },
+    "x": 630,
+    "y": 505
+  },
+  {
+    "name": "Mornington Crescent",
+    "id": "s-940gzzlumtc",
+    "pos": {
+      "left": 619.6453247070312,
+      "top": 522.3985290527344
+    },
+    "x": 620,
+    "y": 525
+  },
+  {
+    "name": "Goodge Street",
+    "id": "s-940gzzlugdg",
+    "pos": {
+      "left": 609.522705078125,
+      "top": 603.6246337890625
+    },
+    "x": 610,
+    "y": 605
+  },
+  {
+    "name": "Warren Street",
+    "id": "s-940gzzluwrr",
+    "pos": {
+      "left": 603.8285522460938,
+      "top": 574.3984680175781
+    },
+    "x": 605,
+    "y": 575
+  },
+  {
+    "name": "Leicester Square",
+    "id": "s-940gzzlulsq",
+    "pos": {
+      "left": 603.8285522460938,
+      "top": 657.64892578125
+    },
+    "x": 605,
+    "y": 660
+  },
+  {
+    "name": "Borough",
+    "id": "s-940gzzlubor",
+    "pos": {
+      "left": 685.8274536132812,
+      "top": 793.930908203125
+    },
+    "x": 690,
+    "y": 795
+  },
+  {
+    "name": "Angel",
+    "id": "s-940gzzluagl",
+    "pos": {
+      "left": 701.2593383789062,
+      "top": 557.9507751464844
+    },
+    "x": 705,
+    "y": 560
+  },
+  {
+    "name": "Old Street",
+    "id": "s-940gzzluods",
+    "pos": {
+      "left": 730.2671508789062,
+      "top": 568.3571472167969
+    },
+    "x": 735,
+    "y": 570
+  },
+  {
+    "name": "Kennington",
+    "id": "s-940gzzlukng",
+    "pos": {
+      "left": 605.5341796875,
+      "top": 874.0361328125
+    },
+    "x": 610,
+    "y": 875
+  },
+  {
+    "name": "Clapham North",
+    "id": "s-940gzzlucpn",
+    "pos": {
+      "left": 557.8970336914062,
+      "top": 899.3030395507812
+    },
+    "x": 560,
+    "y": 900
+  },
+  {
+    "name": "Clapham High Street",
+    "id": "s-910gclphhs"
+  },
+  {
+    "name": "Oval",
+    "id": "s-940gzzluovl",
+    "pos": {
+      "left": 595.4782104492188,
+      "top": 884.2366333007812
+    },
+    "x": 600,
+    "y": 885
+  },
+  {
+    "name": "Clapham Common",
+    "id": "s-940gzzlucpc",
+    "pos": {
+      "left": 544.3145751953125,
+      "top": 928.6654052734375
+    },
+    "x": 545,
+    "y": 930
+  },
+  {
+    "name": "Clapham South",
+    "id": "s-940gzzlucps",
+    "pos": {
+      "left": 533.4102172851562,
+      "top": 939.5360717773438
+    },
+    "x": 535,
+    "y": 940
+  },
+  {
+    "name": "Tooting Bec",
+    "id": "s-940gzzlutbc",
+    "pos": {
+      "left": 514.986572265625,
+      "top": 964.6339111328125
+    },
+    "x": 515,
+    "y": 965
+  },
+  {
+    "name": "Tooting Broadway",
+    "id": "s-940gzzlutby",
+    "pos": {
+      "left": 503.8637390136719,
+      "top": 975.8231201171875
+    },
+    "x": 505,
+    "y": 980
+  },
+  {
+    "name": "Colliers Wood",
+    "id": "s-940gzzlucsd",
+    "pos": {
+      "left": 492.88201904296875,
+      "top": 986.843505859375
+    },
+    "x": 495,
+    "y": 990
+  },
+  {
+    "name": "South Wimbledon",
+    "id": "s-940gzzluswn",
+    "pos": {
+      "left": 481.9783020019531,
+      "top": 997.7899169921875
+    },
+    "x": 485,
+    "y": 1000
+  },
+  {
+    "name": "Morden",
+    "id": "s-940gzzlumdn",
+    "pos": {
+      "left": 446.54766845703125,
+      "top": 1023.9257202148438
+    },
+    "x": 450,
+    "y": 1025
+  },
+  {
+    "name": "Balham",
+    "id": "s-940gzzlublm",
+    "pos": {
+      "left": 520.1901245117188,
+      "top": 950.1642456054688
+    },
+    "x": 525,
+    "y": 955
+  },
+  {
+    "name": "Rayners Lane",
+    "id": "s-940gzzluryl",
+    "pos": {
+      "left": 197.7831268310547,
+      "top": 404.1018829345703
+    },
+    "x": 200,
+    "y": 405
+  },
+  {
+    "name": "South Harrow",
+    "id": "s-940gzzlushh",
+    "pos": {
+      "left": 217.52230834960938,
+      "top": 440.66627502441406
+    },
+    "x": 220,
+    "y": 445
+  },
+  {
+    "name": "Sudbury Hill",
+    "id": "s-940gzzlusuh",
+    "pos": {
+      "left": 217.52230834960938,
+      "top": 467.6151123046875
+    },
+    "x": 220,
+    "y": 470
+  },
+  {
+    "name": "Sudbury Town",
+    "id": "s-940gzzlusut",
+    "pos": {
+      "left": 216.51002502441406,
+      "top": 491.6540222167969
+    },
+    "x": 220,
+    "y": 495
+  },
+  {
+    "name": "Alperton",
+    "id": "s-940gzzlualp",
+    "pos": {
+      "left": 217.52230834960938,
+      "top": 522.3985290527344
+    },
+    "x": 220,
+    "y": 525
+  },
+  {
+    "name": "Park Royal",
+    "id": "s-940gzzlupkr",
+    "pos": {
+      "left": 217.52230834960938,
+      "top": 611.4689331054688
+    },
+    "x": 220,
+    "y": 615
+  },
+  {
+    "name": "North Ealing",
+    "id": "s-940gzzlunen",
+    "pos": {
+      "left": 217.52230834960938,
+      "top": 630.9530639648438
+    },
+    "x": 220,
+    "y": 635
+  },
+  {
+    "name": "Heathrow Terminal 4",
+    "id": "s-940gzzluhr4",
+    "pos": {
+      "left": 88.20520782470703,
+      "top": 869.5707397460938
+    },
+    "x": 90,
+    "y": 870
+  },
+  {
+    "name": "Heathrow Terminal 5",
+    "id": "s-940gzzluhr5",
+    "pos": {
+      "left": 63.15159606933594,
+      "top": 861.5999755859375
+    },
+    "x": 65,
+    "y": 865
+  },
+  {
+    "name": "Northfields",
+    "id": "s-940gzzlunfd",
+    "pos": {
+      "left": 182.5976104736328,
+      "top": 733.5477905273438
+    },
+    "x": 185,
+    "y": 735
+  },
+  {
+    "name": "Boston Manor",
+    "id": "s-940gzzlubos",
+    "pos": {
+      "left": 171.50279235839844,
+      "top": 744.6635131835938
+    },
+    "x": 175,
+    "y": 745
+  },
+  {
+    "name": "South Ealing",
+    "id": "s-940gzzlusea",
+    "pos": {
+      "left": 202.46482849121094,
+      "top": 720.7826538085938
+    },
+    "x": 205,
+    "y": 725
+  },
+  {
+    "name": "Osterley",
+    "id": "s-940gzzluosy",
+    "pos": {
+      "left": 159.88223266601562,
+      "top": 756.1698608398438
+    },
+    "x": 160,
+    "y": 760
+  },
+  {
+    "name": "Hounslow Central",
+    "id": "s-940gzzluhwc",
+    "pos": {
+      "left": 139.05201721191406,
+      "top": 777.0789184570312
+    },
+    "x": 140,
+    "y": 780
+  },
+  {
+    "name": "Hounslow East",
+    "id": "s-940gzzluhwe",
+    "pos": {
+      "left": 146.0309600830078,
+      "top": 760.7630615234375
+    },
+    "x": 150,
+    "y": 765
+  },
+  {
+    "name": "Hounslow West",
+    "id": "s-940gzzluhwt",
+    "pos": {
+      "left": 123.76107788085938,
+      "top": 783.0307006835938
+    },
+    "x": 125,
+    "y": 785
+  },
+  {
+    "name": "Hatton Cross",
+    "id": "s-940gzzluhnx",
+    "pos": {
+      "left": 111.9638900756836,
+      "top": 804.0650634765625
+    },
+    "x": 115,
+    "y": 805
+  },
+  {
+    "name": "Heathrow Terminals 2 & 3",
+    "id": "s-940gzzluhrc",
+    "pos": {
+      "left": 95.16455841064453,
+      "top": 811.6243286132812
+    },
+    "x": 100,
+    "y": 815
+  },
+  {
+    "name": "",
+    "id": "heathrow-airport"
+  },
+  {
+    "name": "Russell Square",
+    "id": "s-940gzzlursq",
+    "pos": {
+      "left": 650.8989868164062,
+      "top": 605.1428833007812
+    },
+    "x": 655,
+    "y": 610
+  },
+  {
+    "name": "Hyde Park Corner",
+    "id": "s-940gzzluhpc",
+    "pos": {
+      "left": 513.0629272460938,
+      "top": 675.4389343261719
+    },
+    "x": 515,
+    "y": 680
+  },
+  {
+    "name": "Knightsbridge",
+    "id": "s-940gzzluknb",
+    "pos": {
+      "left": 487.5435791015625,
+      "top": 701.0286560058594
+    },
+    "x": 490,
+    "y": 705
+  },
+  {
+    "name": "Covent Garden",
+    "id": "s-940gzzlucgn",
+    "pos": {
+      "left": 623.0686645507812,
+      "top": 647.6150207519531
+    },
+    "x": 625,
+    "y": 650
+  },
+  {
+    "name": "Oakwood",
+    "id": "s-910genfcoak"
+  },
+  {
+    "name": "Cockfosters",
+    "id": "s-940gzzlucks",
+    "pos": {
+      "left": 788.9469604492188,
+      "top": 293.3964538574219
+    },
+    "x": 790,
+    "y": 295
+  },
+  {
+    "name": "Southgate",
+    "id": "s-940gzzlusgt",
+    "pos": {
+      "left": 789.073486328125,
+      "top": 323.3818130493164
+    },
+    "x": 790,
+    "y": 325
+  },
+  {
+    "name": "Arnos Grove",
+    "id": "s-940gzzluasg",
+    "pos": {
+      "left": 789.073486328125,
+      "top": 338.3112335205078
+    },
+    "x": 790,
+    "y": 340
+  },
+  {
+    "name": "Bounds Green",
+    "id": "s-940gzzlubds",
+    "pos": {
+      "left": 789.073486328125,
+      "top": 353.3671569824219
+    },
+    "x": 790,
+    "y": 355
+  },
+  {
+    "name": "Wood Green",
+    "id": "s-940gzzluwog",
+    "pos": {
+      "left": 789.073486328125,
+      "top": 368.2965850830078
+    },
+    "x": 790,
+    "y": 370
+  },
+  {
+    "name": "Turnpike Lane",
+    "id": "s-940gzzlutpn",
+    "pos": {
+      "left": 789.073486328125,
+      "top": 383.3525085449219
+    },
+    "x": 790,
+    "y": 385
+  },
+  {
+    "name": "Manor House",
+    "id": "s-940gzzlumrh",
+    "pos": {
+      "left": 789.073486328125,
+      "top": 413.84393310546875
+    },
+    "x": 790,
+    "y": 415
+  },
+  {
+    "name": "Arsenal",
+    "id": "s-940gzzluasl",
+    "pos": {
+      "left": 765.5046997070312,
+      "top": 445.4985656738281
+    },
+    "x": 770,
+    "y": 450
+  },
+  {
+    "name": "Holloway Road",
+    "id": "s-940gzzluhwy",
+    "pos": {
+      "left": 751.7304077148438,
+      "top": 459.3043212890625
+    },
+    "x": 755,
+    "y": 460
+  },
+  {
+    "name": "Blackhorse Road",
+    "id": "s-910gblchsrd",
+    "pos": {
+      "left": 882.7081298828125,
+      "top": 406.3792266845703
+    },
+    "x": 885,
+    "y": 410
+  },
+  {
+    "name": "Highbury & Islington",
+    "id": "s-940gzzluhai",
+    "pos": {
+      "left": 762.0270385742188,
+      "top": 482.1966247558594
+    },
+    "x": 765,
+    "y": 485
+  },
+  {
+    "name": "Finsbury Park",
+    "id": "s-940gzzlufpk",
+    "pos": {
+      "left": 780.5008544921875,
+      "top": 427.9194030761719
+    },
+    "x": 785,
+    "y": 430
+  },
+  {
+    "name": "Seven Sisters",
+    "id": "s-940gzzlusvs",
+    "pos": {
+      "left": 828.2039794921875,
+      "top": 412.48388671875
+    },
+    "x": 830,
+    "y": 415
+  },
+  {
+    "name": "Tottenham Hale",
+    "id": "s-940gzzlutmh",
+    "pos": {
+      "left": 848.6649780273438,
+      "top": 412.4522399902344
+    },
+    "x": 850,
+    "y": 415
+  },
+  {
+    "name": "Walthamstow Central",
+    "id": "s-940gzzluwwl",
+    "pos": {
+      "left": 927.7540283203125,
+      "top": 412.4522399902344
+    },
+    "x": 930,
+    "y": 415
+  },
+  {
+    "name": "Pimlico",
+    "id": "s-940gzzlupco",
+    "pos": {
+      "left": 527.6555786132812,
+      "top": 797.9601440429688
+    },
+    "x": 530,
+    "y": 800
+  },
+  {
+    "name": "Vauxhall",
+    "id": "s-940gzzluvxl",
+    "pos": {
+      "left": 534.2296752929688,
+      "top": 853.3760986328125
+    },
+    "x": 535,
+    "y": 855
+  },
+  {
+    "name": "Stockwell",
+    "id": "s-940gzzluskw",
+    "pos": {
+      "left": 575.6116943359375,
+      "top": 894.8748168945312
+    },
+    "x": 580,
+    "y": 895
+  },
+  {
+    "name": "Brixton",
+    "id": "s-940gzzlubxn",
+    "pos": {
+      "left": 605.7265625,
+      "top": 924.8601684570312
+    },
+    "x": 610,
+    "y": 925
+  },
+  {
+    "name": "West Silvertown",
+    "id": "s-940gzzdlwsv",
+    "pos": {
+      "left": 1061.3731689453125,
+      "top": 712.052734375
+    },
+    "x": 1065,
+    "y": 715
+  },
+  {
+    "name": "Pontoon Dock",
+    "id": "s-940gzzdlpdk",
+    "pos": {
+      "left": 1080.479736328125,
+      "top": 731.1572875976562
+    },
+    "x": 1085,
+    "y": 735
+  },
+  {
+    "name": "King George V",
+    "id": "s-940gzzdlkgv",
+    "pos": {
+      "left": 1120.7174072265625,
+      "top": 771.517333984375
+    },
+    "x": 1125,
+    "y": 775
+  },
+  {
+    "name": "Prince Regent",
+    "id": "s-940gzzdlpre",
+    "pos": {
+      "left": 1115.3973388671875,
+      "top": 699.4006652832031
+    },
+    "x": 1120,
+    "y": 700
+  },
+  {
+    "name": "Royal Albert",
+    "id": "s-940gzzdlral",
+    "pos": {
+      "left": 1131.34619140625,
+      "top": 715.3422241210938
+    },
+    "x": 1135,
+    "y": 720
+  },
+  {
+    "name": "Beckton Park",
+    "id": "s-940gzzdlbpk",
+    "pos": {
+      "left": 1147.416015625,
+      "top": 731.2838745117188
+    },
+    "x": 1150,
+    "y": 735
+  },
+  {
+    "name": "Cyprus",
+    "id": "s-940gzzdlcyp",
+    "pos": {
+      "left": 1163.3590087890625,
+      "top": 747.3519287109375
+    },
+    "x": 1165,
+    "y": 750
+  },
+  {
+    "name": "Gallions Reach",
+    "id": "s-940gzzdlgal",
+    "pos": {
+      "left": 1179.30224609375,
+      "top": 763.2935180664062
+    },
+    "x": 1180,
+    "y": 765
+  },
+  {
+    "name": "Beckton",
+    "id": "s-940gzzdlbec",
+    "pos": {
+      "left": 1195.118896484375,
+      "top": 779.1085815429688
+    },
+    "x": 1200,
+    "y": 780
+  },
+  {
+    "name": "Westferry",
+    "id": "s-940gzzdlwfe",
+    "pos": {
+      "left": 902.32080078125,
+      "top": 670.3009338378906
+    },
+    "x": 905,
+    "y": 675
+  },
+  {
+    "name": "Blackwall",
+    "id": "s-940gzzdlbla",
+    "pos": {
+      "left": 950.4035034179688,
+      "top": 670.3009338378906
+    },
+    "x": 955,
+    "y": 675
+  },
+  {
+    "name": "Royal Victoria",
+    "id": "s-940gzzdlrvc",
+    "pos": {
+      "left": 1057.3240966796875,
+      "top": 670.3009338378906
+    },
+    "x": 1060,
+    "y": 675
+  },
+  {
+    "name": "Bow Church",
+    "id": "s-940gzzdlbow",
+    "pos": {
+      "left": 931.17041015625,
+      "top": 594.0091247558594
+    },
+    "x": 935,
+    "y": 595
+  },
+  {
+    "name": "Island Gardens",
+    "id": "s-940gzzdlisl",
+    "pos": {
+      "left": 931.17041015625,
+      "top": 800.6170654296875
+    },
+    "x": 935,
+    "y": 805
+  },
+  {
+    "name": "Deptford Bridge",
+    "id": "s-940gzzdldep",
+    "pos": {
+      "left": 931.17041015625,
+      "top": 856.9186401367188
+    },
+    "x": 935,
+    "y": 860
+  },
+  {
+    "name": "South Quay",
+    "id": "s-940gzzdlsoq",
+    "pos": {
+      "left": 931.17041015625,
+      "top": 757.2205200195312
+    },
+    "x": 935,
+    "y": 760
+  },
+  {
+    "name": "Crossharbour",
+    "id": "s-940gzzdlcla",
+    "pos": {
+      "left": 931.17041015625,
+      "top": 771.7703857421875
+    },
+    "x": 935,
+    "y": 775
+  },
+  {
+    "name": "Mudchute",
+    "id": "s-940gzzdlmud",
+    "pos": {
+      "left": 931.17041015625,
+      "top": 786.1936645507812
+    },
+    "x": 935,
+    "y": 790
+  },
+  {
+    "name": "Heron Quays",
+    "id": "s-940gzzdlheq",
+    "pos": {
+      "left": 931.17041015625,
+      "top": 742.7971801757812
+    },
+    "x": 935,
+    "y": 745
+  },
+  {
+    "name": "West India Quay",
+    "id": "s-940gzzdlwiq",
+    "pos": {
+      "left": 931.17041015625,
+      "top": 698.76806640625
+    },
+    "x": 935,
+    "y": 700
+  },
+  {
+    "name": "Elverson Road",
+    "id": "s-940gzzdlelv",
+    "pos": {
+      "left": 931.17041015625,
+      "top": 871.3419799804688
+    },
+    "x": 935,
+    "y": 875
+  },
+  {
+    "name": "Devons Road",
+    "id": "s-940gzzdldev",
+    "pos": {
+      "left": 931.17041015625,
+      "top": 618.8070983886719
+    },
+    "x": 935,
+    "y": 620
+  },
+  {
+    "name": "Langdon Park",
+    "id": "s-940gzzdlldp",
+    "pos": {
+      "left": 931.17041015625,
+      "top": 633.6100158691406
+    },
+    "x": 935,
+    "y": 635
+  },
+  {
+    "name": "All Saints",
+    "id": "s-940gzzdlall",
+    "pos": {
+      "left": 931.17041015625,
+      "top": 648.4129333496094
+    },
+    "x": 935,
+    "y": 650
+  },
+  {
+    "name": "Canning Town",
+    "id": "s-940gzzlubxn",
+    "pos": {
+      "left": 605.7265625,
+      "top": 924.8601684570312
+    },
+    "x": 610,
+    "y": 925
+  },
+  {
+    "name": "Poplar",
+    "id": "s-940gzzdlpop",
+    "pos": {
+      "left": 931.17041015625,
+      "top": 670.3009338378906
+    },
+    "x": 935,
+    "y": 675
+  },
+  {
+    "name": "Pudding Mill Lane",
+    "id": "s-940gzzdlpud",
+    "pos": {
+      "left": 969.2568969726562,
+      "top": 544.0335388183594
+    },
+    "x": 970,
+    "y": 545
+  },
+  {
+    "name": "East India",
+    "id": "s-940gzzdlein",
+    "pos": {
+      "left": 976.595947265625,
+      "top": 670.3009338378906
+    },
+    "x": 980,
+    "y": 675
+  },
+  {
+    "name": "London City Airport",
+    "id": "s-940gzzdllca",
+    "pos": {
+      "left": 1100.5986328125,
+      "top": 751.4005737304688
+    },
+    "x": 1105,
+    "y": 755
+  },
+  {
+    "name": "Limehouse",
+    "id": "s-940gzzdllim",
+    "pos": {
+      "left": 877.89990234375,
+      "top": 670.3009338378906
+    },
+    "x": 880,
+    "y": 675
+  },
+  {
+    "name": "Woolwich Arsenal",
+    "id": "s-940gzzdlwla",
+    "pos": {
+      "left": 1127.8033447265625,
+      "top": 816.8116455078125
+    },
+    "x": 1130,
+    "y": 820
+  },
+  {
+    "name": "Cutty Sark for Maritime Greenwich",
+    "id": "s-940gzzdlcut",
+    "pos": {
+      "left": 931.17041015625,
+      "top": 826.1742553710938
+    },
+    "x": 935,
+    "y": 830
+  },
+  {
+    "name": "Greenwich",
+    "id": "s-940gzzdlgre",
+    "pos": {
+      "left": 931.17041015625,
+      "top": 842.3687744140625
+    },
+    "x": 935,
+    "y": 845
+  },
+  {
+    "name": "Lewisham",
+    "id": "s-940gzzdllew",
+    "pos": {
+      "left": 931.17041015625,
+      "top": 885.8919067382812
+    },
+    "x": 935,
+    "y": 890
+  },
+  {
+    "name": "Tower Gateway",
+    "id": "s-940gzzdltwg",
+    "pos": {
+      "left": 800.0819091796875,
+      "top": 684.2182312011719
+    },
+    "x": 805,
+    "y": 685
+  },
+  {
+    "name": "Stratford International",
+    "id": "s-940gzzdlsit",
+    "pos": {
+      "left": 960.02001953125,
+      "top": 478.369384765625
+    },
+    "x": 965,
+    "y": 480
+  },
+  {
+    "name": "Tower Hill Fenchurch Street",
+    "id": "s-940gzzlutwh",
+    "pos": {
+      "left": 788.4407958984375,
+      "top": 672.4518127441406
+    },
+    "x": 790,
+    "y": 675
+  },
+  {
+    "name": "Stratford High Street",
+    "id": "s-940gzzdlshs",
+    "pos": {
+      "left": 1006.1990356445312,
+      "top": 534.1649169921875
+    },
+    "x": 1010,
+    "y": 535
+  },
+  {
+    "name": "Abbey Road",
+    "id": "s-940gzzdlabr",
+    "pos": {
+      "left": 1006.2046508789062,
+      "top": 556.8120727539062
+    },
+    "x": 1010,
+    "y": 560
+  },
+  {
+    "name": "Star Lane",
+    "id": "s-940gzzdlstl",
+    "pos": {
+      "left": 1006.7108764648438,
+      "top": 621.7171020507812
+    },
+    "x": 1010,
+    "y": 625
+  },
+  {
+    "name": "Acton Central",
+    "id": "s-910gactnctl",
+    "pos": {
+      "left": 268.0091247558594,
+      "top": 679.7899780273438
+    },
+    "x": 270,
+    "y": 680
+  },
+  {
+    "name": "South Acton",
+    "id": "s-910gsacton",
+    "pos": {
+      "left": 268.0091247558594,
+      "top": 696.6172180175781
+    },
+    "x": 270,
+    "y": 700
+  },
+  {
+    "name": "Kensington( Olympia)",
+    "id": "s-940gzzlukoy",
+    "pos": {
+      "left": 402.6089782714844,
+      "top": 690.3928833007812
+    },
+    "x": 405,
+    "y": 695
+  },
+  {
+    "name": "Kilburn High Road",
+    "id": "s-910gklbrnhr",
+    "pos": {
+      "left": 398.591552734375,
+      "top": 534.0383911132812
+    },
+    "x": 400,
+    "y": 535
+  },
+  {
+    "name": "South Hampstead",
+    "id": "s-910gshmpstd",
+    "pos": {
+      "left": 446.8007507324219,
+      "top": 534.0383911132812
+    },
+    "x": 450,
+    "y": 535
+  },
+  {
+    "name": "Kensal Rise",
+    "id": "s-910gkenr",
+    "pos": {
+      "left": 358.48046875,
+      "top": 495.1966247558594
+    },
+    "x": 360,
+    "y": 500
+  },
+  {
+    "name": "Brondesbury Park",
+    "id": "s-910gbrbypk",
+    "pos": {
+      "left": 399.7303466796875,
+      "top": 496.2087707519531
+    },
+    "x": 400,
+    "y": 500
+  },
+  {
+    "name": "Hampstead Heath",
+    "id": "s-910ghmpstdh",
+    "pos": {
+      "left": 589.783447265625,
+      "top": 437.12371826171875
+    },
+    "x": 590,
+    "y": 440
+  },
+  {
+    "name": "Finchley Road& Frognal",
+    "id": "s-910gfnchlyr",
+    "pos": {
+      "left": 548.8840942382812,
+      "top": 473.3553771972656
+    },
+    "x": 550,
+    "y": 475
+  },
+  {
+    "name": "Brondesbury",
+    "id": "s-910gbrby",
+    "pos": {
+      "left": 433.2616882324219,
+      "top": 500.8900451660156
+    },
+    "x": 435,
+    "y": 505
+  },
+  {
+    "name": "Gospel Oak",
+    "id": "s-910ggosplok",
+    "pos": {
+      "left": 616.2288208007812,
+      "top": 436.99720764160156
+    },
+    "x": 620,
+    "y": 440
+  },
+  {
+    "name": "Kentish Town West",
+    "id": "s-910gkntshtw",
+    "pos": {
+      "left": 641.9246826171875,
+      "top": 457.37957763671875
+    },
+    "x": 645,
+    "y": 460
+  },
+  {
+    "name": "Camden Road",
+    "id": "s-910gcmdnrd",
+    "pos": {
+      "left": 665.7034301757812,
+      "top": 477.7367858886719
+    },
+    "x": 670,
+    "y": 480
+  },
+  {
+    "name": "Dalston Kingsland",
+    "id": "s-910gdalskld",
+    "pos": {
+      "left": 822.6047973632812,
+      "top": 489.7562255859375
+    },
+    "x": 825,
+    "y": 490
+  },
+  {
+    "name": "Hackney Central",
+    "id": "s-910ghacknyc",
+    "pos": {
+      "left": 882.5816040039062,
+      "top": 508.9873352050781
+    },
+    "x": 885,
+    "y": 510
+  },
+  {
+    "name": "Caledonian Road & Barnsbury",
+    "id": "s-910gcldnnrb",
+    "pos": {
+      "left": 744.2806396484375,
+      "top": 488.6175537109375
+    },
+    "x": 745,
+    "y": 490
+  },
+  {
+    "name": "Hackney Wick",
+    "id": "s-910ghacknyw",
+    "pos": {
+      "left": 949.8973388671875,
+      "top": 508.9873352050781
+    },
+    "x": 950,
+    "y": 510
+  },
+  {
+    "name": "Homerton",
+    "id": "s-910ghomrton",
+    "pos": {
+      "left": 913.582275390625,
+      "top": 508.9873352050781
+    },
+    "x": 915,
+    "y": 510
+  },
+  {
+    "name": "Canonbury",
+    "id": "s-910gcnnb",
+    "pos": {
+      "left": 799.44921875,
+      "top": 488.23797607421875
+    },
+    "x": 800,
+    "y": 490
+  },
+  {
+    "name": "Norwood Junction",
+    "id": "s-910gnorwdj",
+    "pos": {
+      "left": 840.5724487304688,
+      "top": 953.3272094726562
+    },
+    "x": 845,
+    "y": 955
+  },
+  {
+    "name": "Forest Hill",
+    "id": "s-910gforesth",
+    "pos": {
+      "left": 840.5725708007812,
+      "top": 896.7725830078125
+    },
+    "x": 845,
+    "y": 900
+  },
+  {
+    "name": "Anerley",
+    "id": "s-910ganerley",
+    "pos": {
+      "left": 840.5725708007812,
+      "top": 940.5486450195312
+    },
+    "x": 845,
+    "y": 945
+  },
+  {
+    "name": "Penge West",
+    "id": "s-910gpenew",
+    "pos": {
+      "left": 846.2666015625,
+      "top": 931.0596313476562
+    },
+    "x": 850,
+    "y": 935
+  },
+  {
+    "name": "Honor Oak Park",
+    "id": "s-910ghonropk",
+    "pos": {
+      "left": 840.5725708007812,
+      "top": 880.8310546875
+    },
+    "x": 845,
+    "y": 885
+  },
+  {
+    "name": "Brockley",
+    "id": "s-910gbrockly",
+    "pos": {
+      "left": 840.5725708007812,
+      "top": 865.6485595703125
+    },
+    "x": 845,
+    "y": 870
+  },
+  {
+    "name": "West Croydon",
+    "id": "s-910gwcroydon"
+  },
+  {
+    "name": "Wapping",
+    "id": "s-910gwapping",
+    "pos": {
+      "left": 846.2666015625,
+      "top": 697.5028686523438
+    },
+    "x": 850,
+    "y": 700
+  },
+  {
+    "name": "New Cross Gate",
+    "id": "s-910gnewxgte",
+    "pos": {
+      "left": 840.5725708007812,
+      "top": 847.4296264648438
+    },
+    "x": 845,
+    "y": 850
+  },
+  {
+    "name": "Sydenham",
+    "id": "s-910gsydenhm",
+    "pos": {
+      "left": 840.5725708007812,
+      "top": 911.7019653320312
+    },
+    "x": 845,
+    "y": 915
+  },
+  {
+    "name": "New Cross",
+    "id": "s-910gnwcrell",
+    "pos": {
+      "left": 892.830810546875,
+      "top": 847.3031005859375
+    },
+    "x": 895,
+    "y": 850
+  },
+  {
+    "name": "Crystal Palace",
+    "id": "s-910gcrystlp",
+    "pos": {
+      "left": 813.8739624023438,
+      "top": 947.7603149414062
+    },
+    "x": 815,
+    "y": 950
+  },
+  {
+    "name": "Surrey Quays",
+    "id": "s-910gsurreyq",
+    "pos": {
+      "left": 841.5847778320312,
+      "top": 786.9528198242188
+    },
+    "x": 845,
+    "y": 790
+  },
+  {
+    "name": "Rotherhithe",
+    "id": "s-910grtherhi",
+    "pos": {
+      "left": 841.5847778320312,
+      "top": 719.1378784179688
+    },
+    "x": 845,
+    "y": 720
+  },
+  {
+    "name": "Shadwell",
+    "id": "s-940gzzdlsha",
+    "pos": {
+      "left": 848.544189453125,
+      "top": 670.1744384765625
+    },
+    "x": 850,
+    "y": 675
+  },
+  {
+    "name": "Queens Road Peckham",
+    "id": "s-910gpckhmqd",
+    "pos": {
+      "left": 767.8158569335938,
+      "top": 847.3031005859375
+    },
+    "x": 770,
+    "y": 850
+  },
+  {
+    "name": "Peckham Rye",
+    "id": "s-910gpckhmry",
+    "pos": {
+      "left": 740.2315063476562,
+      "top": 875.0111083984375
+    },
+    "x": 745,
+    "y": 880
+  },
+  {
+    "name": "Denmark Hill",
+    "id": "s-910gdenmrkh",
+    "pos": {
+      "left": 658.364501953125,
+      "top": 908.7920532226562
+    },
+    "x": 660,
+    "y": 910
+  },
+  {
+    "name": "Wandsworth Road",
+    "id": "s-910gwndswrd",
+    "pos": {
+      "left": 513.4838256835938,
+      "top": 880.8310546875
+    },
+    "x": 515,
+    "y": 885
+  },
+  {
+    "name": "Imperial Wharf",
+    "id": "s-910gcseah",
+    "pos": {
+      "left": 432.3759460449219,
+      "top": 820.98681640625
+    },
+    "x": 435,
+    "y": 825
+  },
+  {
+    "name": "Wanstead Park",
+    "id": "s-910gwnstdpk",
+    "pos": {
+      "left": 1025.9755859375,
+      "top": 451.57867431640625
+    },
+    "x": 1030,
+    "y": 455
+  },
+  {
+    "name": "Leytonstone High Road",
+    "id": "s-910glytnshr",
+    "pos": {
+      "left": 975.2041015625,
+      "top": 457.240478515625
+    },
+    "x": 980,
+    "y": 460
+  },
+  {
+    "name": "Leyton Midland Road",
+    "id": "s-910gleytnmr",
+    "pos": {
+      "left": 946.7340698242188,
+      "top": 452.43267822265625
+    },
+    "x": 950,
+    "y": 455
+  },
+  {
+    "name": "Walthamstow Queen’s Road",
+    "id": "s-910gwlthqrd",
+    "pos": {
+      "left": 907.3821411132812,
+      "top": 432.31591796875
+    },
+    "x": 910,
+    "y": 435
+  },
+  {
+    "name": "Woodgrange Park",
+    "id": "s-910gwdgrnpk",
+    "pos": {
+      "left": 1066.51416015625,
+      "top": 476.00616455078125
+    },
+    "x": 1070,
+    "y": 480
+  },
+  {
+    "name": "Acton Town",
+    "id": "s-940gzzluact",
+    "pos": {
+      "left": 221.9509735107422,
+      "top": 719.264404296875
+    },
+    "x": 225,
+    "y": 720
+  },
+  {
+    "name": "Harringay Green Lanes",
+    "id": "s-910ghrgygl",
+    "pos": {
+      "left": 805.6493530273438,
+      "top": 389.0459289550781
+    },
+    "x": 810,
+    "y": 390
+  },
+  {
+    "name": "South Tottenham",
+    "id": "s-910gstotnhm",
+    "pos": {
+      "left": 854.7442626953125,
+      "top": 389.0459289550781
+    },
+    "x": 855,
+    "y": 390
+  },
+  {
+    "name": "Upper Holloway",
+    "id": "s-910guprhlwy",
+    "pos": {
+      "left": 676.4588012695312,
+      "top": 424.7246856689453
+    },
+    "x": 680,
+    "y": 425
+  },
+  {
+    "name": "Crouch Hill",
+    "id": "s-910gcrouchh",
+    "pos": {
+      "left": 727.0217895507812,
+      "top": 407.3700256347656
+    },
+    "x": 730,
+    "y": 410
+  },
+  {
+    "name": "Shoreditch High Street",
+    "id": "s-910gshrdhst",
+    "pos": {
+      "left": 840.5725708007812,
+      "top": 585.7853088378906
+    },
+    "x": 845,
+    "y": 590
+  },
+  {
+    "name": "Dalston Junction",
+    "id": "s-910gdals",
+    "pos": {
+      "left": 831.462158203125,
+      "top": 511.77081298828125
+    },
+    "x": 835,
+    "y": 515
+  },
+  {
+    "name": "Haggerston",
+    "id": "s-910ghaggers",
+    "pos": {
+      "left": 840.5725708007812,
+      "top": 535.1770935058594
+    },
+    "x": 845,
+    "y": 540
+  },
+  {
+    "name": "Hoxton",
+    "id": "s-910ghoxton",
+    "pos": {
+      "left": 840.5725708007812,
+      "top": 553.9021301269531
+    },
+    "x": 845,
+    "y": 555
+  },
+  {
+    "name": "Clapham Junction",
+    "id": "s-910gclphmjw"
+  },
+  {
+    "name": "Holland Park",
+    "id": "s-940gzzluhpk",
+    "pos": {
+      "left": 400.4895324707031,
+      "top": 656.5102233886719
+    },
+    "x": 405,
+    "y": 660
+  },
+  {
+    "name": "Caledonian Road",
+    "id": "s-940gzzlucar",
+    "pos": {
+      "left": 728.5905151367188,
+      "top": 479.88763427734375
+    },
+    "x": 730,
+    "y": 480
+  },
+  {
+    "name": "Victoria",
+    "id": "s-940gzzluvic",
+    "pos": {
+      "left": 526.643310546875,
+      "top": 717.8726806640625
+    },
+    "x": 530,
+    "y": 720
+  },
+  {
+    "name": "Harrington Road",
+    "id": "s-940gzzcrhar",
+    "pos": {
+      "left": 968.7508544921875,
+      "top": 933.7166137695312
+    },
+    "x": 970,
+    "y": 935
+  },
+  {
+    "name": "Arena",
+    "id": "s-940gzzcrara",
+    "pos": {
+      "left": 968.7508544921875,
+      "top": 962.6897583007812
+    },
+    "x": 970,
+    "y": 965
+  },
+  {
+    "name": "Dundonald Road",
+    "id": "s-940gzzcrddr",
+    "pos": {
+      "left": 409.3468933105469,
+      "top": 932.0718383789062
+    },
+    "x": 410,
+    "y": 935
+  },
+  {
+    "name": "Merton Park",
+    "id": "s-940gzzcrmtp",
+    "pos": {
+      "left": 437.81689453125,
+      "top": 977.3661499023438
+    },
+    "x": 440,
+    "y": 980
+  },
+  {
+    "name": "Woodside",
+    "id": "s-940gzzcrwod",
+    "pos": {
+      "left": 968.7508544921875,
+      "top": 977.7456665039062
+    },
+    "x": 970,
+    "y": 980
+  },
+  {
+    "name": "Blackhorse Lane",
+    "id": "s-940gzzcrbla",
+    "pos": {
+      "left": 968.7508544921875,
+      "top": 992.8016967773438
+    },
+    "x": 970,
+    "y": 995
+  },
+  {
+    "name": "Addiscombe",
+    "id": "s-940gzzcradd",
+    "pos": {
+      "left": 968.7508544921875,
+      "top": 1007.7310791015625
+    },
+    "x": 970,
+    "y": 1010
+  },
+  {
+    "name": "Avenue Road",
+    "id": "s-940gzzcrave",
+    "pos": {
+      "left": 1043.531982421875,
+      "top": 909.6776733398438
+    },
+    "x": 1045,
+    "y": 910
+  },
+  {
+    "name": "Sandilands",
+    "id": "s-940gzzcrsan",
+    "pos": {
+      "left": 947.2401733398438,
+      "top": 1021.395263671875
+    },
+    "x": 950,
+    "y": 1025
+  },
+  {
+    "name": "King Henry’s Drive",
+    "id": "s-940gzzcrkgh",
+    "pos": {
+      "left": 1056.8179931640625,
+      "top": 1097.940185546875
+    },
+    "x": 1060,
+    "y": 1100
+  },
+  {
+    "name": "New Addington",
+    "id": "s-940gzzcrnwa",
+    "pos": {
+      "left": 1094.0189208984375,
+      "top": 1097.940185546875
+    },
+    "x": 1095,
+    "y": 1100
+  },
+  {
+    "name": "Fieldway",
+    "id": "s-940gzzcrfld",
+    "pos": {
+      "left": 1022.0213623046875,
+      "top": 1080.4803466796875
+    },
+    "x": 1025,
+    "y": 1085
+  },
+  {
+    "name": "Addington Village",
+    "id": "s-940gzzcradv",
+    "pos": {
+      "left": 1009.4945678710938,
+      "top": 1067.954833984375
+    },
+    "x": 1010,
+    "y": 1070
+  },
+  {
+    "name": "Gravel Hill",
+    "id": "s-940gzzcrgra",
+    "pos": {
+      "left": 996.9677734375,
+      "top": 1055.4293212890625
+    },
+    "x": 1000,
+    "y": 1060
+  },
+  {
+    "name": "Coombe Lane",
+    "id": "s-940gzzcrcoo",
+    "pos": {
+      "left": 984.5618286132812,
+      "top": 1043.0302734375
+    },
+    "x": 985,
+    "y": 1045
+  },
+  {
+    "name": "Lloyd Park",
+    "id": "s-940gzzcrloy",
+    "pos": {
+      "left": 972.0406494140625,
+      "top": 1030.5047607421875
+    },
+    "x": 975,
+    "y": 1035
+  },
+  {
+    "name": "Wellesley Road",
+    "id": "s-940gzzcrwel",
+    "pos": {
+      "left": 871.3145141601562,
+      "top": 995.2055053710938
+    },
+    "x": 875,
+    "y": 1000
+  },
+  {
+    "name": "Reeves Corner",
+    "id": "s-940gzzcrrvc",
+    "pos": {
+      "left": 794.6409301757812,
+      "top": 1009.3758544921875
+    },
+    "x": 795,
+    "y": 1010
+  },
+  {
+    "name": "Mitcham",
+    "id": "s-940gzzcrmch",
+    "pos": {
+      "left": 583.1980590820312,
+      "top": 1021.395263671875
+    },
+    "x": 585,
+    "y": 1025
+  },
+  {
+    "name": "Beddington Lane",
+    "id": "s-940gzzcrbed",
+    "pos": {
+      "left": 652.7969970703125,
+      "top": 1021.395263671875
+    },
+    "x": 655,
+    "y": 1025
+  },
+  {
+    "name": "Ampere Way",
+    "id": "s-940gzzcramp",
+    "pos": {
+      "left": 714.671875,
+      "top": 1021.395263671875
+    },
+    "x": 715,
+    "y": 1025
+  },
+  {
+    "name": "Wandle Park",
+    "id": "s-940gzzcrwan",
+    "pos": {
+      "left": 771.6118774414062,
+      "top": 1021.395263671875
+    },
+    "x": 775,
+    "y": 1025
+  },
+  {
+    "name": "Centrale",
+    "id": "s-940gzzcrctr",
+    "pos": {
+      "left": 822.0986328125,
+      "top": 995.2055053710938
+    },
+    "x": 825,
+    "y": 1000
+  },
+  {
+    "name": "Church Street",
+    "id": "s-940gzzcrchr",
+    "pos": {
+      "left": 828.5518798828125,
+      "top": 1021.395263671875
+    },
+    "x": 830,
+    "y": 1025
+  },
+  {
+    "name": "Belgrave Walk",
+    "id": "s-940gzzcrbgv",
+    "pos": {
+      "left": 551.0642700195312,
+      "top": 1021.395263671875
+    },
+    "x": 555,
+    "y": 1025
+  },
+  {
+    "name": "Phipps Bridge",
+    "id": "s-940gzzcrphi",
+    "pos": {
+      "left": 522.4677124023438,
+      "top": 1021.395263671875
+    },
+    "x": 525,
+    "y": 1025
+  },
+  {
+    "name": "Morden Road",
+    "id": "s-940gzzcrmdn",
+    "pos": {
+      "left": 495.510498046875,
+      "top": 1021.395263671875
+    },
+    "x": 500,
+    "y": 1025
+  },
+  {
+    "name": "Therapia Lane",
+    "id": "s-940gzzcrtpa",
+    "pos": {
+      "left": 685.8222045898438,
+      "top": 1021.395263671875
+    },
+    "x": 690,
+    "y": 1025
+  },
+  {
+    "name": "Waddon Marsh",
+    "id": "s-940gzzcrwad",
+    "pos": {
+      "left": 743.141845703125,
+      "top": 1021.395263671875
+    },
+    "x": 745,
+    "y": 1025
+  },
+  {
+    "name": "George Street",
+    "id": "s-940gzzcrcen",
+    "pos": {
+      "left": 868.1567993164062,
+      "top": 1021.395263671875
+    },
+    "x": 870,
+    "y": 1025
+  },
+  {
+    "name": "Lebanon Road",
+    "id": "s-940gzzcrleb",
+    "pos": {
+      "left": 928.2601318359375,
+      "top": 1021.395263671875
+    },
+    "x": 930,
+    "y": 1025
+  },
+  {
+    "name": "Beckenham Road",
+    "id": "s-940gzzcrbrd",
+    "pos": {
+      "left": 1079.0880126953125,
+      "top": 909.6776733398438
+    },
+    "x": 1080,
+    "y": 910
+  },
+  {
+    "name": "Mitcham Junction",
+    "id": "s-910gzzcrmjt-label"
+  },
+  {
+    "name": "East Croydon",
+    "id": "s-940gzzcrecr",
+    "pos": {
+      "left": 907.63525390625,
+      "top": 1021.395263671875
+    },
+    "x": 910,
+    "y": 1025
+  },
+  {
+    "name": "Elmers End",
+    "id": "s-940gzzcrelm-label"
+  },
+  {
+    "name": "Birkbeck",
+    "id": "s-940gzzcrbir-label"
+  },
+  {
+    "name": "Beckenham Junction",
+    "id": "s-940gzzcrbek",
+    "pos": {
+      "left": 1115.14990234375,
+      "top": 909.6776733398438
+    },
+    "x": 1120,
+    "y": 910
+  },
+  {
+    "name": "Swiss Cottage",
+    "id": "s-940gzzluswc",
+    "pos": {
+      "left": 498.27520751953125,
+      "top": 521.5068054199219
+    },
+    "x": 500,
+    "y": 525
+  },
+  {
+    "name": "Finchley Road",
+    "id": "s-940gzzlufyr",
+    "pos": {
+      "left": 484.539306640625,
+      "top": 511.0433044433594
+    },
+    "x": 485,
+    "y": 515
+  },
+  {
+    "name": "West Hampstead",
+    "id": "s-940gzzluwhp",
+    "pos": {
+      "left": 474.9228210449219,
+      "top": 501.566162109375
+    },
+    "x": 475,
+    "y": 505
+  },
+  {
+    "name": "St John’s Wood",
+    "id": "s-940gzzlusjw",
+    "pos": {
+      "left": 508.8540954589844,
+      "top": 531.9951782226562
+    },
+    "x": 510,
+    "y": 535
+  },
+  {
+    "name": "Lancaster Gate",
+    "id": "s-940gzzlulgt",
+    "pos": {
+      "left": 478.29150390625,
+      "top": 651.2051391601562
+    },
+    "x": 480,
+    "y": 655
+  },
+  {
+    "name": "Lambeth North",
+    "id": "s-940gzzlulbn",
+    "pos": {
+      "left": 618.5064697265625,
+      "top": 804.5391235351562
+    },
+    "x": 620,
+    "y": 805
+  },
+  {
+    "name": "Custom House for Ex Ce L",
+    "id": "s-940gzzdlcus",
+    "pos": {
+      "left": 1099.333251953125,
+      "top": 683.3325500488281
+    },
+    "x": 1100,
+    "y": 685
+  },
+  {
+    "name": "West Ealing",
+    "id": "s-910gwealing",
+    "pos": {
+      "left": 173.9948272705078,
+      "top": 641.8338623046875
+    },
+    "x": 175,
+    "y": 645
+  },
+  {
+    "name": "Acton Main Line",
+    "id": "s-910gactonml",
+    "pos": {
+      "left": 257.5937805175781,
+      "top": 611.190673828125
+    },
+    "x": 260,
+    "y": 615
+  },
+  {
+    "name": "Southall",
+    "id": "s-910gsthall",
+    "pos": {
+      "left": 125.86138916015625,
+      "top": 656.8863525390625
+    },
+    "x": 130,
+    "y": 660
+  },
+  {
+    "name": "Hanwell",
+    "id": "s-910ghanwell",
+    "pos": {
+      "left": 147.4228057861328,
+      "top": 642.5929870605469
+    },
+    "x": 150,
+    "y": 645
+  },
+  {
+    "name": "Hayes & Harlington",
+    "id": "s-910ghayesah",
+    "pos": {
+      "left": 100.85853576660156,
+      "top": 672.9578857421875
+    },
+    "x": 105,
+    "y": 675
+  }
+]
