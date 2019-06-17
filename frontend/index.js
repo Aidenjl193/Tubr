@@ -6,7 +6,7 @@ const circleStyle = {
 }
 
 
-fetch("http://localhost:3000/lines/452")
+fetch("http://localhost:3000/lines/circle")
 	.then(resp => resp.json())
 	.then(json => {
 		let path_coords = json.path_coords
@@ -76,6 +76,13 @@ fetch("http://localhost:3000/lines/452")
               .append("circle")
               .attr("cx", d => d.x)
               .attr("cy", d => d.y);
+
+		function getTextWidth(text, fontSize, fontFace) {
+			var canvas = document.createElement('canvas');
+			var context = canvas.getContext('2d');
+			context.font = fontSize + 'px ' + fontFace;
+			return context.measureText(text).width;
+		} 
 		
 		const lables = svgContainer.selectAll("text")
               .data(json.stations)
@@ -83,11 +90,11 @@ fetch("http://localhost:3000/lines/452")
               .append("text")
               .attr("x", d => d.x)
               .attr("y", d => d.y)
-              .attr("dx", 12)
+              .attr("dx",(d) =>  -getTextWidth(d.name, 12, "sans-serif")-25)
               .attr("dy", ".25em")
               .style("font-size", "12px")
               .attr("fill", "#1A5A92")
-              .text(function(d) { return d.name });
+              .text((d) => d.name );
 
 		var circleAttributes = circles
             .attr("r", circleStyle.radius )

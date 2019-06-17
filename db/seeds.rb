@@ -37,7 +37,7 @@ end
           "Baker Street",
           "Great Portland Street",
           "Euston Square",
-          "King's Cross St pancras",
+          "King's Cross St Pancras",
           "Farringdon",
           "Barbican",
           "Moorgate",
