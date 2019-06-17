@@ -8,32 +8,41 @@
 </head>
 <body>
 
-  <div id="tube-overlay">
+  <div  id="tube-overlay">
     </div>
 
-    <div class= "absolute"   id="station_detail"> <h1>Can I see this!</h1>
-      <form class="add-toy-form" style="">
-        <h3>Create a toy!</h3>
+    <div class= "absolute"   id="station-detail"> 
+     
+        <h3>Station details</h3>
+        <ul>
+          <li> Station Name:</li>
+          <li>Station Address:</li>
+          <li>Accessible? </li>
+          <li>Opening Times</li>
+        </ul>
+        <button id="view-issue-form"> Add Issue </button>
 
-        <input type="text" name="name" value="" placeholder="Enter a toy's name..." class="input-text">
+    </div>
+
+<div class= "absolute" hidden=true id="create-issue">
+    <form class="add-toy-form" style="">
+        <h3>Add an Issue to ...</h3> 
+
+        <input type="text" name="name" value="" placeholder="Enter issue description..." class="input-text">
         <br>
-        <input type="text" name="image" value="" placeholder="Enter a toy's image URL..." class="input-text">
+        <input type="text" name="image" value="" placeholder="Select Issue Type" class="input-text">
         <br>
-        <input type="submit" name="submit" value="Create New Toy" class="submit">
+        <input type="submit" name="submit" value="Submit Issue" class="submit">
       </form>
-    
-    </div>
 
-<style>
-
-</style>
-
+</div>
 
  </body>
 
   
 
 <script src="https://d3js.org/d3.v4.js"></script>
-<script src="index.js"></script>
 <script src="station_view.js"></script>
+<script src="index.js"></script>
+
 
