@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :issues
   resources :station_lines
   resources :lines
   resources :stations
