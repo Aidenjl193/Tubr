@@ -1,0 +1,2 @@
+class StationLine < ApplicationRecord
+end
