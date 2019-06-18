@@ -120,14 +120,14 @@ fetch("http://localhost:3000/lines/circle")
       .text(function(d) {
         return d.name;
       });
-
+    //
     //Ross
     // function addListenersToCircles(circles) {
-    //chnaged from circles
+    let stationCircles = document.querySelectorAll("circle");
     stationCircles.forEach(circle => {
-      debugger;
       circle.addEventListener("click", () => {
-        openStationDetails();
+        //debugger;
+        openStationDetails(event);
         console.log("it worked!");
       });
     });

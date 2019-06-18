@@ -11,26 +11,30 @@
   <div  id="tube-overlay">
     </div>
 
-    <div class= "absolute"   id="station-detail"> 
+    <div class= "absolute" hidden= "true" id="station-detail"> 
      
         <h3>Station details</h3>
         <ul>
-          <li> Station Name:</li>
-          <li>Station Address:</li>
-          <li>Accessible? </li>
-          <li>Opening Times</li>
+          <li id="st-name"> Station Name:</li>
+          <li id = "st-address">Station Address:</li>
+          <li id = "st-access">Accessible? </li>
+          <li id = "st-times">Opening Times</li>
         </ul>
         <button id="view-issue-form"> Add Issue </button>
+        <button id="close-details"> Close </button>
+        
 
     </div>
 
 <div class= "absolute" hidden=true id="create-issue">
-    <form class="add-toy-form" style="">
-        <h3>Add an Issue to ...</h3> 
+    <form class="add-issue-form" >
+        <h3>Add an Issue</h3> 
 
-        <input type="text" name="name" value="" placeholder="Enter issue description..." class="input-text">
+        <input id= "st-auto-fill" type="text" name="name" value="" class="input-text">
         <br>
-        <input type="text" name="image" value="" placeholder="Select Issue Type" class="input-text">
+        <input type="text" name="issue" value="" placeholder="Enter issue description..." class="input-text">
+        <br>
+        <input type="text" name="type" value="" placeholder="Select Issue Type" class="input-text">
         <br>
         <input type="submit" name="submit" value="Submit Issue" class="submit">
       </form>
