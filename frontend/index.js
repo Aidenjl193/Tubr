@@ -9,7 +9,7 @@ fetch("http://localhost:3000/lines/circle")
   .then(resp => resp.json())
   .then(json => {
     let path_coords = json.path_coords;
-    console.log(path_coords);
+    //console.log(path_coords);
 
     var x = d3.scaleLinear();
 
@@ -174,13 +174,12 @@ fetch("http://localhost:3000/lines/circle")
       .text(function(d) {
         return d.name;
       });
-    //hello
+    //Ross's Shizz follows
     let stationCircles = document.querySelectorAll("circle");
     stationCircles.forEach(circle => {
       circle.addEventListener("click", () => {
         //debugger;
         openStationDetails(event);
-        console.log("it worked!");
       });
     });
   });

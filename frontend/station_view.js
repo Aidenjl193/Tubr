@@ -8,6 +8,11 @@ const StAccessLi = document.querySelector("#st-access");
 const StTimesLi = document.querySelector("#st-times");
 //temp measure...replace with dropdown menus
 const issueStationName = document.querySelector("#st-auto-fill");
+const STATIONS_URL = "http://localhost:3000/stations/";
+// TO BE REPLACED BY Aiden
+let stations = [];
+let stnNames = [];
+let selectStn = document.querySelector("#select-stn");
 
 document.addEventListener("DOMContentLoaded", () => {});
 
@@ -18,14 +23,36 @@ addIssueBtn.addEventListener("click", () => {
   detailsDiv.hidden = !detailsDiv.hidden;
 });
 
+function fetchAndSaveAllStations() {
+  return fetch(STATIONS_URL)
+    .then(resp => resp.json())
+    .then(statns => {
+      console.log(statns);
+      stations = [...statns]; // to "shallow" copy
+      stations.sort((a, b) => (a.name > b.name ? 1 : -1));
+
+      //https://flaviocopes.com/how-to-sort-array-of-objects-by-property-javascript/
+    });
+}
+
+function populateStationsDropdown() {
+  stations.forEach(station => {
+    //stnNames.push(station.name);
+    let stationOption = document.createElement("option");
+    stationOption.innerText = station.name;
+    selectStn.appendChild(stationOption);
+  });
+}
+
 function openIssueForm(event) {
-  //debugger;
-  issueStationName.placeholder = event.target.dataset.station;
+  issueStationName.innerText = `at ${event.target.dataset.station}`;
   issueFormDiv.hidden = !issueFormDiv.hidden;
+  fetchAndSaveAllStations().then(() => {
+    populateStationsDropdown();
+  });
 }
 
 function openStationDetails(event) {
-  debugger;
   if (issueFormDiv.hidden == false) {
     issueFormDiv.hidden = true;
   }
