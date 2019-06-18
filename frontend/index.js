@@ -175,28 +175,3 @@ fetch("http://localhost:3000/lines/circle")
         return d.name;
       });
   });
-
-var circleAttributes = circles
-  .attr("r", circleStyle.radius)
-  .attr("fill", circleStyle.fill)
-  .attr("stroke", circleStyle.stroke)
-  .attr("stroke-width", circleStyle.strokeWidth)
-  .append("text")
-  .attr("dx", 12)
-  .attr("dy", ".35em")
-  .text(function(d) {
-    return d.name;
-  });
-//
-//Ross
-// function addListenersToCircles(circles) {
-let stationCircles = document.querySelectorAll("circle");
-stationCircles.forEach(circle => {
-  circle.addEventListener("click", () => {
-    //debugger;
-    openStationDetails(event);
-    console.log("it worked!");
-  });
-});
-// }
-//
