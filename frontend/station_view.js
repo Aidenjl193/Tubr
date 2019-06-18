@@ -25,15 +25,16 @@ function openIssueForm(event) {
 }
 
 function openStationDetails(event) {
+  debugger;
   if (issueFormDiv.hidden == false) {
     issueFormDiv.hidden = true;
   }
   detailsDiv.hidden = false;
 
-  let stationName = event.target.__data__.name;
-  let stationAddress = event.target.__data__.address;
-  let stationAccess = event.target.__data__.accessible;
-  let stationTimes = event.target.__data__.open_time;
+  let stationName = event.target.parentElement.__data__.name;
+  let stationAddress = event.target.parentElement.__data__.address;
+  let stationAccess = event.target.parentElement.__data__.accessible;
+  let stationTimes = event.target.parentElement.__data__.open_time;
   StNameLi.innerText = stationName;
   StAddressLi.innerText = stationAddress;
   StTimesLi.innerText = stationTimes;
