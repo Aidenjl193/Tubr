@@ -9,9 +9,7 @@ const StTimesLi = document.querySelector("#st-times");
 //temp measure...replace with dropdown menus
 const issueStationName = document.querySelector("#st-auto-fill");
 
-document.addEventListener("DOMContentLoaded", () => {
-  //debugger;
-});
+document.addEventListener("DOMContentLoaded", () => {});
 
 closeDetailsBtn.addEventListener("click", () => (detailsDiv.hidden = true));
 

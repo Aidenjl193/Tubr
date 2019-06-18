@@ -174,4 +174,13 @@ fetch("http://localhost:3000/lines/circle")
       .text(function(d) {
         return d.name;
       });
+    //hello
+    let stationCircles = document.querySelectorAll("circle");
+    stationCircles.forEach(circle => {
+      circle.addEventListener("click", () => {
+        //debugger;
+        openStationDetails(event);
+        console.log("it worked!");
+      });
+    });
   });
