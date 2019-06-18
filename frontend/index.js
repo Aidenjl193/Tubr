@@ -15,6 +15,19 @@ fetch("http://localhost:3000/lines/circle")
 
     var y = d3.scaleLinear();
 
+    let joins = [];
+
+    json.stations.forEach(station => {
+      if (station.nodes.length > 1) {
+        for (let i = 1; i < station.nodes.length; ++i) {
+          join = [];
+          join[0] = station.nodes[0];
+          join[1] = station.nodes[i];
+          joins.push(join);
+        }
+      }
+    });
+
     const svgContainer = d3
       .select("#tube-overlay")
       .append("svg")
@@ -27,6 +40,14 @@ fetch("http://localhost:3000/lines/circle")
             .attr("transform", d3.event.transform)
             .attr("stroke-width", (1 / d3.event.transform.scale(1).k) * 7);
 
+          station_Joins_bottom
+            .attr("transform", d3.event.transform)
+            .attr("stroke-width", (1 / d3.event.transform.scale(1).k) * 9);
+
+          station_Joins_top
+            .attr("transform", d3.event.transform)
+            .attr("stroke-width", (1 / d3.event.transform.scale(1).k) * 3);
+
           circles
             .attr("cx", function(d) {
               return newX(d.x);
@@ -37,10 +58,10 @@ fetch("http://localhost:3000/lines/circle")
 
           lables
             .attr("x", function(d) {
-              return newX(d.x);
+              return newX(d.nodes[0].x);
             })
             .attr("y", function(d) {
-              return newY(d.y);
+              return newY(d.nodes[0].y);
             });
 
           if (d3.event.transform.scale(1).k < 2) {
@@ -72,7 +93,7 @@ fetch("http://localhost:3000/lines/circle")
 
     let lineGraphs = svgContainer
       .selectAll("path")
-      .data(path_coords)
+      .data(path_coords) //big ol' bug here
       .enter()
       .append("path")
       .attr("d", d => lineFunction(path_coords))
@@ -80,14 +101,44 @@ fetch("http://localhost:3000/lines/circle")
       .attr("stroke-width", "10px")
       .attr("fill", "none");
 
+    const station_Joins_bottom = svgContainer
+      .selectAll(".join-line-bottom")
+      .data(joins)
+      .enter()
+      .append("line")
+      .attr("class", ".join-line-bottom")
+      .attr("x1", d => d[0].x)
+      .attr("y1", d => d[0].y)
+      .attr("x2", d => d[1].x)
+      .attr("y2", d => d[1].y)
+      .attr("stroke-width", "10px")
+      .attr("stroke", d => "black");
+
     //Render stations
     const circles = svgContainer
-      .selectAll("circle")
+      .selectAll("g")
       .data(json.stations)
+      .enter()
+      .append("g")
+      .selectAll("circle")
+      .data(d => d.nodes)
       .enter()
       .append("circle")
       .attr("cx", d => d.x)
       .attr("cy", d => d.y);
+
+    const station_Joins_top = svgContainer
+      .selectAll(".join-line-top")
+      .data(joins)
+      .enter()
+      .append("line")
+      .attr("class", ".join-line-top")
+      .attr("x1", d => d[0].x)
+      .attr("y1", d => d[0].y)
+      .attr("x2", d => d[1].x)
+      .attr("y2", d => d[1].y)
+      .attr("stroke-width", "5px")
+      .attr("stroke", d => "white");
 
     function getTextWidth(text, fontSize, fontFace) {
       var canvas = document.createElement("canvas");
@@ -101,9 +152,12 @@ fetch("http://localhost:3000/lines/circle")
       .data(json.stations)
       .enter()
       .append("text")
-      .attr("x", d => d.x)
-      .attr("y", d => d.y)
-      .attr("dx", d => -getTextWidth(d.name, 12, "sans-serif") - 25)
+      .attr("x", d => d.nodes[0].x)
+      .attr("y", d => d.nodes[0].y)
+      .attr("dx", d => {
+        let width = getTextWidth(d.name, 12, "sans-serif");
+        return -width - 25;
+      })
       .attr("dy", ".25em")
       .style("font-size", "12px")
       .attr("fill", "#1A5A92")
@@ -120,16 +174,29 @@ fetch("http://localhost:3000/lines/circle")
       .text(function(d) {
         return d.name;
       });
-    //
-    //Ross
-    // function addListenersToCircles(circles) {
-    let stationCircles = document.querySelectorAll("circle");
-    stationCircles.forEach(circle => {
-      circle.addEventListener("click", () => {
-        //debugger;
-        openStationDetails(event);
-        console.log("it worked!");
-      });
-    });
-    // }
   });
+
+var circleAttributes = circles
+  .attr("r", circleStyle.radius)
+  .attr("fill", circleStyle.fill)
+  .attr("stroke", circleStyle.stroke)
+  .attr("stroke-width", circleStyle.strokeWidth)
+  .append("text")
+  .attr("dx", 12)
+  .attr("dy", ".35em")
+  .text(function(d) {
+    return d.name;
+  });
+//
+//Ross
+// function addListenersToCircles(circles) {
+let stationCircles = document.querySelectorAll("circle");
+stationCircles.forEach(circle => {
+  circle.addEventListener("click", () => {
+    //debugger;
+    openStationDetails(event);
+    console.log("it worked!");
+  });
+});
+// }
+//
