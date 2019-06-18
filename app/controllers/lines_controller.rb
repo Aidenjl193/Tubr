@@ -6,7 +6,7 @@ class LinesController < ApplicationController
     render json: line.to_json(
              :methods => :path_coords,
              :include => {
-               :stations => {:except => [:updated_at, :created_at]}
+               :stations => {:except => [:updated_at, :created_at], :include => [:nodes]}
              },
              :except => [:updated_at, :created_at])
   end

@@ -13,9 +13,16 @@ Station.destroy_all
 Line.destroy_all
 StationLine.destroy_all
 
-stations_hash.each do |station|
-  if(station["pos"] && station["x"] && station["y"])
-    Station.create(name: station["name"], x: station["x"], y: station["y"])
+stations_hash.each do |station_hash|
+  if((station_hash["x"] && station_hash["y"]) || station_hash["nodes"])
+    station = Station.create(name: station_hash["name"])
+    if(!station_hash["nodes"])
+      Node.create(x: station_hash["x"], y: station_hash["y"], station_id: station.id)
+    else
+      station_hash["nodes"].each do |node|
+         Node.create(x: node["x"], y: node["y"], station_id: station.id)
+      end
+    end
   end
 end
 
@@ -23,43 +30,44 @@ end
     {
 		name: "circle",
 		color: "#FFCC00",
-        station_line_names: [
-          "Hammersmith",
-          "Goldhawk Road",
-          "Shepherd's Bush Market",
-          "Wood Lane",
-          "Latimer Road",
-          "Ladbroke Grove",
-          "Westbourne Park",
-          "Royal Oak",
-          "Paddington",
-          "Edgware Road",
-          "Baker Street",
-          "Great Portland Street",
-          "Euston Square",
-          "King's Cross St Pancras",
-          "Farringdon",
-          "Barbican",
-          "Moorgate",
-          "Liverpool Street",
-          "Aldgate",
-          "Tower Hill",
-          "Monument",
-          "Cannon Street",
-          "Mansion House",
-          "Blackfriars",
-          "Temple",
-          "Embankment",
-          "Westminster",
-          "St James's Park",
-          "Victoria",
-          "Sloane Square",
-          "South Kensington",
-          "Gloucester Road",
-          "High Street Kensington",
-          "Notting Hill Gate",
-          "Bayswater",
-          "Paddington"
+        station_line_hashes: [
+          {name: "Hammersmith", node: 0 },
+          {name: "Goldhawk Road", node: 0 },
+          {name: "Shepherd's Bush Market", node: 0 },
+          {name: "Wood Lane", node: 0 },
+          {name: "Latimer Road", node: 0 },
+          {name: "Ladbroke Grove", node: 0 },
+          {name: "Westbourne Park", node: 0 },
+          {name: "Royal Oak", node: 0 },
+          {name: "Paddington", node: 0 },
+          {name: "Edgware Road", node: 0 },
+          {name: "Baker Street", node: 0 },
+          {name: "Great Portland Street", node: 0 },
+          {name: "Euston Square", node: 0 },
+          {name: "King's Cross St ancras", node: 0 },
+          {name: "Farringdon", node: 0 },
+          {name: "Barbican", node: 0 },
+          {name: "Moorgate", node: 0 },
+          {name: "Liverpool Street", node: 0 },
+          {name: "Aldgate", node: 0 },
+          {name: "Tower Hill", node: 0 },
+          {name: "Monument", node: 0 },
+          {name: "Cannon Street", node: 0 },
+          {name: "Mansion House", node: 0 },
+          {name: "Blackfriars", node: 0 },
+          {name: "Temple", node: 0 },
+          {name: "Embankment", node: 0 },
+          {name: "Westminster", node: 0 },
+          {name: "St James's Park", node: 0 },
+          {name: "Victoria", node: 0 },
+          {name: "Sloane Square", node: 0 },
+          {name: "South Kensington", node: 0 },
+          {name: "Gloucester Road", node: 0 },
+          {name: "High Street Kensington", node: 0 },
+          {name: "Notting Hill Gate", node: 0 },
+          {name: "Bayswater", node: 0 },
+          {name: "Paddington", node: 1},
+          {name: "Edgware Road", node: 1 }
         ]
     }
   ]
