@@ -123,8 +123,9 @@ fetch("http://localhost:3000/lines/circle")
 
     //Ross
     // function addListenersToCircles(circles) {
-
-    circles._groups.forEach(circle => {
+    //chnaged from circles
+    stationCircles.forEach(circle => {
+      debugger;
       circle.addEventListener("click", () => {
         openStationDetails();
         console.log("it worked!");

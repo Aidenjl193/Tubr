@@ -1,7 +1,7 @@
 const detailsDiv = document.querySelector("#station-detail");
 const addIssueBtn = document.querySelector("#view-issue-form");
 const issueFormDiv = document.querySelector("#create-issue");
-let circles = document.querySelectorAll("circle"); // grab all station circles
+let stationCircles = document.querySelectorAll("circle"); // grab all station circles
 //debugger;
 
 document.addEventListener("DOMContentLoaded", () => {
