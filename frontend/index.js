@@ -160,6 +160,16 @@ function generatePage(stations) {
 				.attr("dx", 12)
 				.attr("dy", ".35em")
 				.text(function(d) { return d.name });
+    
+    
+        //Ross's Shizz follows
+    let stationCircles = document.querySelectorAll("circle");
+
+    stationCircles.forEach(circle => {
+      circle.addEventListener("click", () => {
+        openStationDetails(event);
+      });
+    });
 
 		});
 

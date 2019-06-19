@@ -1,13 +1,54 @@
 <!DOCTYPE html>
+
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Hammersmith+One&display=swap" rel="stylesheet"> 
-  <link href="index.css" rel="stylesheet"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css?family=Hammersmith+One&display=swap" rel="stylesheet" />
+  <link href="index.css" rel="stylesheet" />
 </head>
+
 <body>
   <div id="tube-overlay"></div>
+
+  <div class="absolute" hidden="true" id="station-detail">
+    <h3>Station details</h3>
+    <ul id= "detail-list">
+      <li id="st-name">Station Name:</li>
+      <li id="st-address">Station Address:</li>
+      <li id="st-access">Accessible?</li>
+      <li id="st-times">Opening Times</li>
+    </ul>
+    <button id="view-issue-form">Add Issue</button>
+    <button id="close-details">Close</button>
+    <div id="issues-div">
+
+    </div>
+  </div>
+
+  <div class="absolute" hidden="true" id="create-issue">
+    <form class="add-issue-form">
+      <h3>Tell us about the issue! </h3>
+      <h2 id=st-auto-fill>Station: </h2>
+
+      <!-- <input id="st-auto-fill" type="text" name="name" value="" class="input-text" />
+      <br /> -->
+
+      <select name="" id="select-stn">
+        <option value="default">Single Station Issue</option>
+      </select>
+      <br />
+
+
+      <input type="text" name="issue" value="" placeholder="Enter issue description..." class="input-text" />
+      <br />
+
+      <input type="text" name="type" value="" placeholder="Select Issue Type" class="input-text" />
+      <br />
+      <input type="submit" name="submit" value="Submit Issue" class="submit" />
+    </form>
+  </div>
 </body>
-  
-</div>
+
 <script src="https://d3js.org/d3.v4.js"></script>
+<script src="station_view.js"></script>
+<script src="add_issue.js"></script>
 <script src="index.js"></script>

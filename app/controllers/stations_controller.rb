@@ -10,4 +10,8 @@ class StationsController < ApplicationController
   def index
     render json: StationsController.get_station_json
   end
+  def show
+    station = Station.find_by(id: params[:id])
+    render json: station, include: [:issues]
+  end
 end
