@@ -6,6 +6,44 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 require "json"
+require 'nokogiri'
+require 'open-uri'
+
+lines_page = Nokogiri::HTML.parse(open('https://en.wikipedia.org/wiki/London_Underground'))
+table_rows = lines_page.css("table.wikitable tbody tr")
+
+lines = []
+
+#table_rows.each do |row|
+#  if(row.css("td")[0])
+#    line_obj = {}
+#    line_obj[:name] = row.css("td")[0].css("a").text
+#    url =  row.css("td")[0].css("a")[0][:href]
+#    line_obj[:color] = row.css("td")[1].attributes["style"].value.split(":")[1].sub("color", "").sub(";", "").sub(" ", "")#
+#
+#    line_obj[:station_line_hashes] = []#
+#
+#    line_page = Nokogiri::HTML.parse(open("https://en.wikipedia.org#{url}"))
+#
+#    trs = line_page.css("table.wikitable tbody tr")
+#
+#    trs.each do |line_row|
+#      if(line_row.css("td")[0])
+#        line_obj[:station_line_hashes] << {
+#          name: line_row.css("td")[0].css("a").text,
+#          node: 0
+#        }
+#      end
+#    end
+#    lines << line_obj
+#  end
+#end
+
+#File.open("./db/lines.json","w") do |f|
+#  f.write(lines.to_json)
+#end
+
+lines = JSON.parse(File.read(File.expand_path("./db/lines.json")))
 json_from_file = File.read(File.expand_path("./db/stations.json"))
 stations_hash = JSON.parse(json_from_file)
 
@@ -20,56 +58,67 @@ stations_hash.each do |station_hash|
       Node.create(x: station_hash["x"], y: station_hash["y"], station_id: station.id)
     else
       station_hash["nodes"].each do |node|
-         Node.create(x: node["x"], y: node["y"], station_id: station.id)
+        Node.create(x: node["x"], y: node["y"], station_id: station.id)
       end
     end
   end
 end
 
- lines = [
-    {
-		name: "circle",
-		color: "#FFCC00",
-        station_line_hashes: [
-          {name: "Hammersmith", node: 0 },
-          {name: "Goldhawk Road", node: 0 },
-          {name: "Shepherd's Bush Market", node: 0 },
-          {name: "Wood Lane", node: 0 },
-          {name: "Latimer Road", node: 0 },
-          {name: "Ladbroke Grove", node: 0 },
-          {name: "Westbourne Park", node: 0 },
-          {name: "Royal Oak", node: 0 },
-          {name: "Paddington", node: 0 },
-          {name: "Edgware Road", node: 0 },
-          {name: "Baker Street", node: 0 },
-          {name: "Great Portland Street", node: 0 },
-          {name: "Euston Square", node: 0 },
-          {name: "King's Cross St ancras", node: 0 },
-          {name: "Farringdon", node: 0 },
-          {name: "Barbican", node: 0 },
-          {name: "Moorgate", node: 0 },
-          {name: "Liverpool Street", node: 0 },
-          {name: "Aldgate", node: 0 },
-          {name: "Tower Hill", node: 0 },
-          {name: "Monument", node: 0 },
-          {name: "Cannon Street", node: 0 },
-          {name: "Mansion House", node: 0 },
-          {name: "Blackfriars", node: 0 },
-          {name: "Temple", node: 0 },
-          {name: "Embankment", node: 0 },
-          {name: "Westminster", node: 0 },
-          {name: "St James's Park", node: 0 },
-          {name: "Victoria", node: 0 },
-          {name: "Sloane Square", node: 0 },
-          {name: "South Kensington", node: 0 },
-          {name: "Gloucester Road", node: 0 },
-          {name: "High Street Kensington", node: 0 },
-          {name: "Notting Hill Gate", node: 0 },
-          {name: "Bayswater", node: 0 },
-          {name: "Paddington", node: 1},
-          {name: "Edgware Road", node: 1 }
-        ]
-    }
-  ]
+Line.create(lines)
 
-  Line.create(lines)
+def length(pa, pb)
+  sum_of_squares = 0
+  sum_of_squares += (pa.x - pb.x) ** 2 
+  sum_of_squares += (pa.y - pb.y) ** 2 
+  Math.sqrt( sum_of_squares )
+end
+
+def deltay(pa, pb)
+  (pb.y - pa.y)
+end
+
+def deltax(pa, pb)
+  (pb.x - pa.x)
+end
+
+def clean_line(stops)
+  point_a = Station.find_by(name: stops.first).nodes[0]
+  point_b = Station.find_by(name: stops.last).nodes[0]
+
+  for i in 1..stops.length - 2 do
+    stop = Station.find_by(name: stops[i]).nodes[0]
+    line_length = length(point_a, stop)
+    orignial_length = length(point_a, point_b)
+    puts line_length
+    stop.update(x: point_a.x + line_length * deltax(point_a, point_b) /orignial_length, y: point_a.y + line_length * deltay(point_a, point_b) / orignial_length)
+  end
+end
+
+clean_line([
+        "Plaistow",      
+        "Upton Park",      
+        "East Ham",      
+        "Barking",      
+        "Upney",      
+        "Becontree",      
+        "Dagenham Heathway",      
+        "Dagenham East",      
+        "Elm Park",      
+        "Hornchurch",      
+        "Upminster Bridge",      
+        "Upminster"])
+
+clean_line([
+             "Mile End",
+             "Bow Road",
+             "Bromley-by-Bow",
+             "West Ham"
+           ])
+
+clean_line([
+             "Tower Gateway",
+             "Aldgate East",
+             "Whitechapel",
+             "Stepney Green",
+             "Mile End"
+           ])
