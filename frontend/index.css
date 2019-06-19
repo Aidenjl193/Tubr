@@ -33,3 +33,17 @@ div.absolute {
   border: 3px solid #7DE2D1;
   background-color: #FFFAFB
 }
+
+button {
+  background-color: rgb(70, 81, 208);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}

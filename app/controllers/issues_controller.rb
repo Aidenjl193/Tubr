@@ -7,4 +7,10 @@ class IssuesController < ApplicationController
       render json: { message: "No issue found" }
     end
   end
+
+  def create
+    issue = Issue.new(JSON.parse(params))
+    #HERE 19/06/19
+  end
+
 end
