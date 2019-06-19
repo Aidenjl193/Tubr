@@ -2,6 +2,8 @@ const detailsDiv = document.querySelector("#station-detail");
 const addIssueBtn = document.querySelector("#view-issue-form");
 const closeDetailsBtn = document.querySelector("#close-details");
 const issueFormDiv = document.querySelector("#create-issue");
+const issueListDiv = document.querySelector("#issues-div");
+const issueList = document.createElement("ol");
 const StNameLi = document.querySelector("#st-name");
 const StAddressLi = document.querySelector("#st-address");
 const StAccessLi = document.querySelector("#st-access");
@@ -9,7 +11,7 @@ const StTimesLi = document.querySelector("#st-times");
 //temp measure...replace with dropdown menus
 const issueStationName = document.querySelector("#st-auto-fill");
 const STATIONS_URL = "http://localhost:3000/stations/";
-const ISSUES_URL = "http://localhost:3000/issues/";
+
 // TO BE REPLACED BY Aiden
 let stations = [];
 let stnNames = [];
@@ -85,8 +87,31 @@ function fetchStationDetails(stationId) {
 }
 
 function addStationIssuesToDetails(statn) {
+  issueList.innerHTML = "";
+
+  issueListDiv.innerHTML = "";
+  statn.issues.length > 0
+    ? (issueListDiv.innerHTML += `<h4>Issues:</h4>`)
+    : (issueListDiv.innerHTML += `<h3>No Current Issues</h3>`);
+
   statn.issues.forEach(issue => {
-    let issueT = issue.issue_type;
-    debugger;
+    console.log("one time");
+    let issueLi = document.createElement("li");
+    let issueAttList = document.createElement("ul");
+    let issueAttributes = [
+      `Type: ${issue.issue_type}`,
+      `Duration: ${issue.duration}`,
+      `Direction: ${issue.direction}`
+    ];
+    issueAttributes.forEach(att => {
+      console.log(att);
+      let attLi = document.createElement("li");
+      attLi.innerText = att;
+      issueAttList.appendChild(attLi);
+    });
+    issueLi.appendChild(issueAttList);
+    issueList.appendChild(issueLi);
   });
+
+  issueListDiv.appendChild(issueList);
 }
