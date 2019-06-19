@@ -46,10 +46,15 @@ function fetchAndSaveAllStations() {
   return fetch(STATIONS_URL)
     .then(resp => resp.json())
     .then(statns => {
-      console.log(statns);
       stations = [...statns]; // to "shallow" copy
+      // I want to filter this so only the relevent line's stations appear
+      // stations = stations.filter(station => {
+      //   return fetchStationDetails(station.id)
+      // });
+      // console.log(stations);
       stations.sort((a, b) => (a.name > b.name ? 1 : -1));
 
+      //const result = words.filter(word => word.length > 6);
       //https://flaviocopes.com/how-to-sort-array-of-objects-by-property-javascript/
     });
 }
