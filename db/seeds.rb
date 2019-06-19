@@ -12,6 +12,7 @@ stations_hash = JSON.parse(json_from_file)
 Station.destroy_all
 Line.destroy_all
 StationLine.destroy_all
+Issue.destroy_all
 
 stations_hash.each do |station_hash|
   if((station_hash["x"] && station_hash["y"]) || station_hash["nodes"])
@@ -73,3 +74,11 @@ end
   ]
 
   Line.create(lines)
+
+ 
+  circle_statLines = StationLine.all.select{ |sl| sl.line_id == 9}
+
+  Issue.create(issue_type: "Closure", duration: "3 days", station_line_id: StationLine.all.sample.id, direction: "Northbound")
+  Issue.create(issue_type: "Delay", duration: "Unknown", station_line_id: StationLine.all.sample.id, direction: "Eastbound")
+  Issue.create(issue_type: "Congestion", duration: "Short Term", station_line_id: StationLine.all.sample.id, direction: "Eastbound")
+  Issue.create(issue_type: "Closure", duration: "2 days", station_line_id: StationLine.all.sample.id, direction: "Westbound")

@@ -1,6 +1,7 @@
 class Line < ApplicationRecord
   has_many :station_lines
   has_many :stations, through: :station_lines
+  has_many :issues, through: :station_lines
   
   def station_line_hashes=(hashes)
     hashes.each do |hash|
