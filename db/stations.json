@@ -1361,7 +1361,7 @@
 			"top": 575.031005859375
 		},
 		"x": 910,
-		"y": 580
+		"y": 585
 	},
 	{
 		"name": "Holborn",
@@ -1744,7 +1744,7 @@
 		"y": 595
 	},
 	{
-		"name": "Bromley-by- Bow",
+		"name": "Bromley-by-Bow",
 		"id": "s-940gzzlubbb",
 		"pos": {
 			"left": 978.7469482421875,
