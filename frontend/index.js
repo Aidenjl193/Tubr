@@ -176,9 +176,9 @@ fetch("http://localhost:3000/lines/circle")
       });
     //Ross's Shizz follows
     let stationCircles = document.querySelectorAll("circle");
+
     stationCircles.forEach(circle => {
       circle.addEventListener("click", () => {
-        //debugger;
         openStationDetails(event);
       });
     });

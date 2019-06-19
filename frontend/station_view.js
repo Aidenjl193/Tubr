@@ -9,58 +9,22 @@ const StAddressLi = document.querySelector("#st-address");
 const StAccessLi = document.querySelector("#st-access");
 const StTimesLi = document.querySelector("#st-times");
 //temp measure...replace with dropdown menus
-const issueStationName = document.querySelector("#st-auto-fill");
+("#st-auto-fill");
 const STATIONS_URL = "http://localhost:3000/stations/";
 
 // TO BE REPLACED BY Aiden
 let stations = [];
 let stnNames = [];
-let selectStn = document.querySelector("#select-stn");
-
-document.addEventListener("DOMContentLoaded", () => {});
 
 closeDetailsBtn.addEventListener("click", () => (detailsDiv.hidden = true));
 
-addIssueBtn.addEventListener("click", () => {
-  openIssueForm(event);
-  detailsDiv.hidden = !detailsDiv.hidden;
-});
-
-function fetchAndSaveAllStations() {
-  return fetch(STATIONS_URL)
-    .then(resp => resp.json())
-    .then(statns => {
-      console.log(statns);
-      stations = [...statns]; // to "shallow" copy
-      stations.sort((a, b) => (a.name > b.name ? 1 : -1));
-
-      //https://flaviocopes.com/how-to-sort-array-of-objects-by-property-javascript/
-    });
-}
-
-function populateStationsDropdown() {
-  stations.forEach(station => {
-    //stnNames.push(station.name);
-    let stationOption = document.createElement("option");
-    stationOption.innerText = station.name;
-    selectStn.appendChild(stationOption);
-  });
-}
-
-function openIssueForm(event) {
-  issueStationName.innerText = `at ${event.target.dataset.station}`;
-  issueFormDiv.hidden = !issueFormDiv.hidden;
-  fetchAndSaveAllStations().then(() => {
-    populateStationsDropdown();
-  });
-}
-
+// function call for this at bottom of index.js
 function openStationDetails(event) {
   if (issueFormDiv.hidden == false) {
     issueFormDiv.hidden = true;
   }
   detailsDiv.hidden = false;
-  //debugger;
+
   let stationName = event.target.parentElement.__data__.name;
   let stationAddress = event.target.parentElement.__data__.address;
   let stationAccess = event.target.parentElement.__data__.accessible;
@@ -77,6 +41,20 @@ function openStationDetails(event) {
   addIssueBtn.dataset.station = stationName;
 }
 
+//fetches all stations, sorts alpha, and saves to globally available variable
+function fetchAndSaveAllStations() {
+  return fetch(STATIONS_URL)
+    .then(resp => resp.json())
+    .then(statns => {
+      console.log(statns);
+      stations = [...statns]; // to "shallow" copy
+      stations.sort((a, b) => (a.name > b.name ? 1 : -1));
+
+      //https://flaviocopes.com/how-to-sort-array-of-objects-by-property-javascript/
+    });
+}
+
+// fetches an individual station so it's issues can be displayed
 function fetchStationDetails(stationId) {
   return fetch(STATIONS_URL + stationId)
     .then(resp => resp.json())
@@ -88,14 +66,13 @@ function fetchStationDetails(stationId) {
 
 function addStationIssuesToDetails(statn) {
   issueList.innerHTML = "";
-
   issueListDiv.innerHTML = "";
+
   statn.issues.length > 0
     ? (issueListDiv.innerHTML += `<h4>Issues:</h4>`)
     : (issueListDiv.innerHTML += `<h3>No Current Issues</h3>`);
 
   statn.issues.forEach(issue => {
-    console.log("one time");
     let issueLi = document.createElement("li");
     let issueAttList = document.createElement("ul");
     let issueAttributes = [
@@ -103,15 +80,15 @@ function addStationIssuesToDetails(statn) {
       `Duration: ${issue.duration}`,
       `Direction: ${issue.direction}`
     ];
+
     issueAttributes.forEach(att => {
-      console.log(att);
       let attLi = document.createElement("li");
       attLi.innerText = att;
       issueAttList.appendChild(attLi);
     });
+
     issueLi.appendChild(issueAttList);
     issueList.appendChild(issueLi);
   });
-
   issueListDiv.appendChild(issueList);
 }
