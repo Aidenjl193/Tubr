@@ -1,11 +1,12 @@
 const circleStyle = {
 	fill: "white",
-	stroke: "black",
 	radius: 6,
 	strokeWidth: 4
 }
 
-function generatePage(stations) {
+let allStations = []
+
+function generatePage() {
 	fetch("http://localhost:3000/lines")
 		.then(resp => resp.json())
 		.then(json => {
@@ -18,7 +19,7 @@ function generatePage(stations) {
 			let joins = [];
 
 			//Process the join lines between nodes
-			stations.forEach(station => {
+			allStations.forEach(station => {
 				if(station.nodes.length > 1) {
 					for(let i = 1; i< station.nodes.length; ++i) {
 						join = [];
@@ -105,17 +106,19 @@ function generatePage(stations) {
 				  .attr("stroke-width", "10px")
 				  .attr("stroke", d => "black");
 
-			//Render stations
+			//Render allStations
 			const circles = svgContainer.selectAll("g")
-				  .data(stations)
+				  .data(allStations)
 				  .enter()
 				  .append("g")
 				  .selectAll("circle")
-				  .data(d => d.nodes)
+				  .data(d => {return d.nodes.map((node) =>{return {...node, "has_issues": d.has_issues, "accessible": d.accessible}})})
 				  .enter()
 				  .append("circle")
 				  .attr("cx", d => d.x)
-				  .attr("cy", d => d.y);
+				  .attr("cy", d => d.y)
+				  .attr("stroke", d => {return d.has_issues ? "red" : "black"})
+				  .attr("fill", (d) => {return d.accessible ? "blue" : "white"});
 
 			const station_Joins_top = svgContainer.selectAll(".join-line-top")
 				  .data(joins)
@@ -137,7 +140,7 @@ function generatePage(stations) {
 			}
 			
 			const lables = svgContainer.selectAll("text")
-				  .data(stations)
+				  .data(allStations)
 				  .enter()
 				  .append("text")
 				  .attr("x", d => d.nodes[0].x)
@@ -153,29 +156,25 @@ function generatePage(stations) {
 
 			var circleAttributes = circles
 				.attr("r", circleStyle.radius )
-				.attr("fill", circleStyle.fill)
-				.attr("stroke", circleStyle.stroke)
 				.attr("stroke-width", circleStyle.strokeWidth)
 				.append("text")
 				.attr("dx", 12)
 				.attr("dy", ".35em")
 				.text(function(d) { return d.name });
-    
-    
-        //Ross's Shizz follows
-    let stationCircles = document.querySelectorAll("circle");
+			
+			
+			//Ross's Shizz follows
+			let stationCircles = document.querySelectorAll("circle");
 
-    stationCircles.forEach(circle => {
-      circle.addEventListener("click", () => {
-        openStationDetails(event);
-      });
-    });
+			stationCircles.forEach(circle => {
+				circle.addEventListener("click", () => {
+					openStationDetails(event);
+				});
+			});
 
 		});
-
-
 }
 
 fetch("http://localhost:3000/stations")
 	.then(resp => resp.json())
-	.then(generatePage)
+	.then(json => {allStations = json; generatePage()})

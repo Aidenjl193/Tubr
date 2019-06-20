@@ -1,7 +1,7 @@
 class LinesController < ApplicationController
 
   def index
-    lines = Line.all.select{|line| line[:name] == "District line" || line[:name] == "Circle line"}
+    lines = Line.all.select{|line|  line[:name] == "Circle line"}
     
     render json: lines.to_json(
              :methods => :path_coords,
