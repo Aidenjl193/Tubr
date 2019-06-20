@@ -22,10 +22,11 @@ issueForm.addEventListener("submit", () => createNewIssue());
 function createNewIssue() {
   event.preventDefault();
   let form = event.target;
+  //debugger;
   let newIssue = {
-    direction: form[1],
-    issue_type: form[2],
-    duration: form[0],
+    direction: form[1].value,
+    issue_type: form[2].value,
+    duration: form[0].value,
     station_line_id: 399 // NEED to pass through StLn at the same time!
     //second_station  (MIGRATE)
   };
@@ -38,7 +39,7 @@ function createNewIssue() {
     body: JSON.stringify(newIssue)
   };
 
-  return fetch(ISSUE_URL, configObj);
+  return fetch(ISSUE_URL, configObj).catch(errors => console.log(errors));
 }
 
 function openIssueForm(event) {
@@ -47,6 +48,15 @@ function openIssueForm(event) {
   fetchAndSaveAllStations().then(() => {
     populateStationsDropdown();
     populateIssueAttributeDropdowns();
+  });
+}
+
+function populateStationsDropdown() {
+  stations.forEach(station => {
+    //stnNames.push(station.name);
+    let stationOption = document.createElement("option");
+    stationOption.innerText = station.name;
+    selectStn.appendChild(stationOption);
   });
 }
 
@@ -68,12 +78,4 @@ function populateIssueAttributeDropdowns() {
   });
 }
 
-function populateStationsDropdown() {
-  stations.forEach(station => {
-    //stnNames.push(station.name);
-    let stationOption = document.createElement("option");
-    stationOption.innerText = station.name;
-    selectStn.appendChild(stationOption);
-  });
-}
 /////////////

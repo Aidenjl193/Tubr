@@ -9,7 +9,8 @@ class IssuesController < ApplicationController
   end
 
   def create
-    issue = Issue.new(JSON.parse(params))
+    #byebug
+    issue = Issue.create(params)
     #HERE 19/06/19
   end
 
