@@ -1,7 +1,7 @@
 class StationsController < ApplicationController
 
  def self.get_station_json
-   if !@station_json
+   if true
      @station_json = Station.all.to_json(
        :methods => :has_issues,
        :except => [:updated_at, :created_at],
