@@ -31,11 +31,18 @@
       <h3>Tell us about the issue! </h3>
       <h2 id=st-auto-fill>Station: </h2>
 
+      <label for="line">Which Line?</label><br>
+
+      <select name="line" id="select-line">
+        <option value="default">All lines at this station!</option>
+      </select>
+      <br>
       <label for="stn">Issue on the line?</label><br>
       <label for="stn">Please select where it ends!:</label><br>
       <select name="stn" id="select-stn">
         <option value="default">Single Station Issue</option>
       </select>
+     
 
       <br />
       <label for="direction">...and the direction:</label><br>
@@ -59,5 +66,6 @@
 
 <script src="https://d3js.org/d3.v4.js"></script>
 <script src="station_view.js"></script>
-<script src="add_issue.js"></script>
+
 <script src="index.js"></script>
+<script src="add_issue.js"></script>
