@@ -9,9 +9,10 @@ class IssuesController < ApplicationController
   end
 
   def create
-    #byebug
-    issue = Issue.create(params)
+    byebug
+    issue = Issue.create(direction: params["direction"], issue_type: params["issue_type"],duration: params["duration"],station_line_id: params["station_line_id"])
     #HERE 19/06/19
   end
+
 
 end
