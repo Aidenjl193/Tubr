@@ -26,8 +26,8 @@ function createNewIssue() {
   let newIssue = {
     direction: form[1].value,
     issue_type: form[2].value,
-    duration: form[0].value,
-    station_line_id: 399 // NEED to pass through StLn at the same time!
+    duration: form[3].value,
+    station_line_id: 430 // NEED to pass through StLn at the same time!
     //second_station  (MIGRATE)
   };
   let configObj = {
