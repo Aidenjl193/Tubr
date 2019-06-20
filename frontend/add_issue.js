@@ -20,6 +20,8 @@ addIssueBtn.addEventListener("click", () => {
 issueForm.addEventListener("submit", () => createNewIssue());
 
 function createNewIssue() {
+  debugger;
+  //event.target.__data__.has_issues = true;
   event.preventDefault();
   let form = event.target;
   //debugger;
@@ -27,7 +29,7 @@ function createNewIssue() {
     direction: form[1].value,
     issue_type: form[2].value,
     duration: form[3].value,
-    station_line_id: 430 // NEED to pass through StLn at the same time!
+    station_line_id: 764 // NEED to pass through StLn at the same time!
     //second_station  (MIGRATE)
   };
   let configObj = {
@@ -39,7 +41,7 @@ function createNewIssue() {
     body: JSON.stringify(newIssue)
   };
 
-  return fetch(ISSUE_URL, configObj).catch(errors => console.log(errors));
+  return fetch(ISSUE_URL, configObj);
 }
 
 function openIssueForm(event) {
