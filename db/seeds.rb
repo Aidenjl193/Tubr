@@ -54,7 +54,11 @@ Issue.destroy_all
 
 stations_hash.each do |station_hash|
   if((station_hash["x"] && station_hash["y"]) || station_hash["nodes"])
-    station = Station.create(name: station_hash["name"], accessible: station_hash["accessible"])
+    station = Station.create(name: station_hash["name"],
+                             accessible: station_hash["accessible"],
+                             open_time: rand(3) + 5,
+                             close_time: rand(3)
+                            )
     if(!station_hash["nodes"])
       Node.create(x: station_hash["x"], y: station_hash["y"], station_id: station.id)
     else
