@@ -6,10 +6,10 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 require "json"
-require 'nokogiri'
-require 'open-uri'
+require "nokogiri"
+require "open-uri"
 
-lines_page = Nokogiri::HTML.parse(open('https://en.wikipedia.org/wiki/London_Underground'))
+lines_page = Nokogiri::HTML.parse(open("https://en.wikipedia.org/wiki/London_Underground"))
 table_rows = lines_page.css("table.wikitable tbody tr")
 
 lines = []
@@ -53,6 +53,7 @@ StationLine.destroy_all
 Issue.destroy_all
 
 stations_hash.each do |station_hash|
+
   if((station_hash["x"] && station_hash["y"]) || station_hash["nodes"])
     station = Station.create(name: station_hash["name"],
                              accessible: station_hash["accessible"],
@@ -60,6 +61,7 @@ stations_hash.each do |station_hash|
                              close_time: rand(3)
                             )
     if(!station_hash["nodes"])
+
       Node.create(x: station_hash["x"], y: station_hash["y"], station_id: station.id)
     else
       station_hash["nodes"].each do |node|
@@ -73,9 +75,9 @@ Line.create(lines)
 
 def length(pa, pb)
   sum_of_squares = 0
-  sum_of_squares += (pa.x - pb.x) ** 2 
-  sum_of_squares += (pa.y - pb.y) ** 2 
-  Math.sqrt( sum_of_squares )
+  sum_of_squares += (pa.x - pb.x) ** 2
+  sum_of_squares += (pa.y - pb.y) ** 2
+  Math.sqrt(sum_of_squares)
 end
 
 def deltay(pa, pb)
@@ -90,34 +92,35 @@ def clean_line(stops)
   point_a = Station.find_by(name: stops.first).nodes[0]
   point_b = Station.find_by(name: stops.last).nodes[0]
 
-  for i in 1..stops.length - 2 do
+  for i in 1..stops.length - 2
     stop = Station.find_by(name: stops[i]).nodes[0]
     line_length = length(point_a, stop)
     orignial_length = length(point_a, point_b)
     puts line_length
-    stop.update(x: point_a.x + line_length * deltax(point_a, point_b) /orignial_length, y: point_a.y + line_length * deltay(point_a, point_b) / orignial_length)
+    stop.update(x: point_a.x + line_length * deltax(point_a, point_b) / orignial_length, y: point_a.y + line_length * deltay(point_a, point_b) / orignial_length)
   end
 end
 
 clean_line([
-        "Plaistow",      
-        "Upton Park",      
-        "East Ham",      
-        "Barking",      
-        "Upney",      
-        "Becontree",      
-        "Dagenham Heathway",      
-        "Dagenham East",      
-        "Elm Park",      
-        "Hornchurch",      
-        "Upminster Bridge",      
-        "Upminster"])
+  "Plaistow",
+  "Upton Park",
+  "East Ham",
+  "Barking",
+  "Upney",
+  "Becontree",
+  "Dagenham Heathway",
+  "Dagenham East",
+  "Elm Park",
+  "Hornchurch",
+  "Upminster Bridge",
+  "Upminster",
+])
 
 clean_line([
              "Mile End",
              "Bow Road",
              "Bromley-by-Bow",
-             "West Ham"
+             "West Ham",
            ])
 
 clean_line([
@@ -125,8 +128,25 @@ clean_line([
              "Aldgate East",
              "Whitechapel",
              "Stepney Green",
-             "Mile End"
+             "Mile End",
            ])
+
+
+circle_statLines = StationLine.all.select { |sl| sl.line_id == 9 }
+
+directions = ["Northbound", "Southbound", "Eastbound", "Westbound"]
+issueTypes = ["Closure", "Delay", "Congestion"]
+durations = ["Less than 30 mins", "A few hours", "For Today"]
+days = ["2 days", "3 days", "4 days", "5 days", "6 days", "A week"]
+durations += days
+
+10.times do
+  Issue.create(issue_type: issueTypes.sample,
+               duration: durations.sample,
+               station_line_id: StationLine.all.sample.id,
+               direction: directions.sample,
+               second_station_line_id: StationLine.all.sample.id )
+end
 
 clean_line([
              "Harrow & Wealdstone",
@@ -140,29 +160,4 @@ clean_line([
              "Kilburn Park"
            ])
 
- 
-Issue.create(issue_type: "Closure", duration: "3 days", station_line_id: StationLine.all.sample.id, direction: "Northbound")
-  Issue.create(issue_type: "Delay", duration: "Unknown", station_line_id: StationLine.all.sample.id, direction: "Eastbound")
-  Issue.create(issue_type: "Congestion", duration: "Short Term", station_line_id: StationLine.all.sample.id, direction: "Eastbound")
-  Issue.create(issue_type: "Delay", duration: "Short Term", station_line_id: StationLine.all.sample.id, direction: "Southbound")
-  Issue.create(issue_type: "Closure", duration: "2 days", station_line_id: StationLine.all.sample.id, direction: "Westbound")
-  Issue.create(issue_type: "Closure", duration: "3 days", station_line_id: StationLine.all.sample.id, direction: "Northbound")
-  Issue.create(issue_type: "Delay", duration: "Unknown", station_line_id: StationLine.all.sample.id, direction: "Eastbound")
-  Issue.create(issue_type: "Congestion", duration: "Short Term", station_line_id: StationLine.all.sample.id, direction: "Eastbound")
-  Issue.create(issue_type: "Delay", duration: "Short Term", station_line_id: StationLine.all.sample.id, direction: "Southbound")
-  Issue.create(issue_type: "Closure", duration: "2 days", station_line_id: StationLine.all.sample.id, direction: "Westbound")
-  Issue.create(issue_type: "Closure", duration: "3 days", station_line_id: StationLine.all.sample.id, direction: "Northbound")
-  Issue.create(issue_type: "Delay", duration: "Unknown", station_line_id: StationLine.all.sample.id, direction: "Eastbound")
-  Issue.create(issue_type: "Congestion", duration: "Short Term", station_line_id: StationLine.all.sample.id, direction: "Eastbound")
-  Issue.create(issue_type: "Delay", duration: "Short Term", station_line_id: StationLine.all.sample.id, direction: "Southbound")
-  Issue.create(issue_type: "Closure", duration: "2 days", station_line_id: StationLine.all.sample.id, direction: "Westbound")
-  Issue.create(issue_type: "Closure", duration: "3 days", station_line_id: StationLine.all.sample.id, direction: "Northbound")
-  Issue.create(issue_type: "Delay", duration: "Unknown", station_line_id: StationLine.all.sample.id, direction: "Eastbound")
-  Issue.create(issue_type: "Congestion", duration: "Short Term", station_line_id: StationLine.all.sample.id, direction: "Eastbound")
-  Issue.create(issue_type: "Delay", duration: "Short Term", station_line_id: StationLine.all.sample.id, direction: "Southbound")
-  Issue.create(issue_type: "Closure", duration: "2 days", station_line_id: StationLine.all.sample.id, direction: "Westbound")
-  Issue.create(issue_type: "Closure", duration: "3 days", station_line_id: StationLine.all.sample.id, direction: "Northbound")
-  Issue.create(issue_type: "Delay", duration: "Unknown", station_line_id: StationLine.all.sample.id, direction: "Eastbound")
-  Issue.create(issue_type: "Congestion", duration: "Short Term", station_line_id: StationLine.all.sample.id, direction: "Eastbound")
-  Issue.create(issue_type: "Delay", duration: "Short Term", station_line_id: StationLine.all.sample.id, direction: "Southbound")
-  Issue.create(issue_type: "Closure", duration: "2 days", station_line_id: StationLine.all.sample.id, direction: "Westbound")
+
