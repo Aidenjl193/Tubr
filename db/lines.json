@@ -56,12 +56,12 @@
         "node": 0
       },
       {
-        "name": "PaddingtonHeathrow",
-        "node": 0
+        "name": "Paddington",
+        "node": 2
       },
       {
         "name": "Edgware Road",
-        "node": 0
+        "node": 2
       },
       {
         "name": "Marylebone",
@@ -101,30 +101,6 @@
       },
       {
         "name": "Elephant & Castle",
-        "node": 0
-      },
-      {
-        "name": "Watford Junction",
-        "node": 0
-      },
-      {
-        "name": "Watford High Street",
-        "node": 0
-      },
-      {
-        "name": "Bushey",
-        "node": 0
-      },
-      {
-        "name": "Carpenders Park",
-        "node": 0
-      },
-      {
-        "name": "Hatch End",
-        "node": 0
-      },
-      {
-        "name": "Headstone Lane",
         "node": 0
       }
     ]

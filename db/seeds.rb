@@ -128,10 +128,20 @@ clean_line([
              "Mile End"
            ])
 
- 
-  circle_statLines = StationLine.all.select{ |sl| sl.line_id == 9}
+clean_line([
+             "Harrow & Wealdstone",
+             "Kenton",
+             "South Kenton",
+             "North Wembley",
+             "Stonebridge Park",
+             "Harlesden",
+             "Willesden Junction",
+             "Kensal Green",
+             "Kilburn Park"
+           ])
 
-  Issue.create(issue_type: "Closure", duration: "3 days", station_line_id: StationLine.all.sample.id, direction: "Northbound")
+ 
+Issue.create(issue_type: "Closure", duration: "3 days", station_line_id: StationLine.all.sample.id, direction: "Northbound")
   Issue.create(issue_type: "Delay", duration: "Unknown", station_line_id: StationLine.all.sample.id, direction: "Eastbound")
   Issue.create(issue_type: "Congestion", duration: "Short Term", station_line_id: StationLine.all.sample.id, direction: "Eastbound")
   Issue.create(issue_type: "Delay", duration: "Short Term", station_line_id: StationLine.all.sample.id, direction: "Southbound")
