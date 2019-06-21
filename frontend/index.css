@@ -47,3 +47,11 @@ button {
   margin: 4px 2px;
   cursor: pointer;
 }
+
+h1 {
+	position: absolute;
+	font-size: 50px;
+	color: gray;
+	text-align: center;
+	width: 100%;
+}
