@@ -48,6 +48,21 @@ button {
   cursor: pointer;
 }
 
+#subBtn {
+  background-color: rgb(70, 81, 208);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
 h1 {
 	position: absolute;
 	font-size: 50px;
@@ -55,3 +70,4 @@ h1 {
 	text-align: center;
 	width: 100%;
 }
+

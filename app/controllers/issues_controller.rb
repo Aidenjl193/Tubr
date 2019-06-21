@@ -9,7 +9,7 @@ class IssuesController < ApplicationController
   end
 
   def create
-    #byebug
+    
     if params["line_id"] && params["station_id"]
       station_line_id = StationLine.find_by(line_id: params["line_id"], station_id: params["station_id"])
       station_line_id ? station_line_id = station_line_id.id : nil
@@ -23,7 +23,7 @@ class IssuesController < ApplicationController
       second_station_line_id = StationLine.find_by(line_id: params["line_id"], station_id: second_station_id)
       second_station_line_id ? second_station_line_id = second_station_line_id.id : nil
     end
-
+    #byebug
     issue = Issue.create(
       issue_type: params["issue_type"],
       duration: params["duration"],
@@ -31,8 +31,9 @@ class IssuesController < ApplicationController
       station_line_id: station_line_id,
       second_station_line_id: second_station_line_id,
     )
-    #find second stationline using the name "All Saints" and the line_id 27?
-    #HERE 19/06/19
+    render json: issue   #DAN: Required to send a response back to the fetch!! 
+   
+    #"issue"=>{"issue_type"=>"default", "duration"=>"default", "direction"=>"default", "second_station_line_id"=>"default"}
   end
 
   # private:
