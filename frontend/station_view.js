@@ -8,18 +8,18 @@ const StNameLi = document.querySelector("#st-name");
 const StAddressLi = document.querySelector("#st-address");
 const StAccessLi = document.querySelector("#st-access");
 const StTimesLi = document.querySelector("#st-times");
-//temp measure...replace with dropdown menus
-("#st-auto-fill");
+
 const STATIONS_URL = "http://localhost:3000/stations/";
 
-// TO BE REPLACED BY Aiden
-//let stations = [];
 let stnNames = [];
 
 closeDetailsBtn.addEventListener("click", () => (detailsDiv.hidden = true));
 
 // function call for this at bottom of index.js
 function openStationDetails(event) {
+  //LONGSHOT: if event does not exist use currentCircle for this.
+  /////////////////MAYBE DELETE LINE BELOW/////////
+  event ? (event = event) : (event = currentCircle);
   if (issueFormDiv.hidden == false) {
     issueFormDiv.hidden = true;
   }
@@ -42,24 +42,6 @@ function openStationDetails(event) {
   addIssueBtn.dataset.station = stationName;
   addIssueBtn.dataset.station_id = stationId;
 }
-
-//fetches all stations, sorts alpha, and saves to globally available variable
-// function fetchAndSaveAllStations() {
-//   return fetch(STATIONS_URL)
-//     .then(resp => resp.json())
-//     .then(statns => {
-//       stations = [...statns]; // to "shallow" copy
-//       // I want to filter this so only the relevent line's stations appear
-//       // stations = stations.filter(station => {
-//       //   return fetchStationDetails(station.id)
-//       // });
-//       // console.log(stations);
-//       stations.sort((a, b) => (a.name > b.name ? 1 : -1));
-
-//       //const result = words.filter(word => word.length > 6);
-//       //https://flaviocopes.com/how-to-sort-array-of-objects-by-property-javascript/
-//     });
-// }
 
 // fetches an individual station so it's issues can be displayed
 function fetchStationDetails(stationId) {
@@ -101,3 +83,21 @@ function addStationIssuesToDetails(statn) {
   });
   issueListDiv.appendChild(issueList);
 }
+
+//fetches all stations, sorts alpha, and saves to globally available variable
+// function fetchAndSaveAllStations() {
+//   return fetch(STATIONS_URL)
+//     .then(resp => resp.json())
+//     .then(statns => {
+//       stations = [...statns]; // to "shallow" copy
+//       // I want to filter this so only the relevent line's stations appear
+//       // stations = stations.filter(station => {
+//       //   return fetchStationDetails(station.id)
+//       // });
+//       // console.log(stations);
+//       stations.sort((a, b) => (a.name > b.name ? 1 : -1));
+
+//       //const result = words.filter(word => word.length > 6);
+//       //https://flaviocopes.com/how-to-sort-array-of-objects-by-property-javascript/
+//     });
+// }
