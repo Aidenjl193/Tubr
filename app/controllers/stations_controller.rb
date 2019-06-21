@@ -2,7 +2,7 @@ class StationsController < ApplicationController
 
  def self.get_station_json
    if true
-     @station_json = Station.all.to_json(
+     @station_json = Line.find_by(name: "Circle line").stations.to_json(
        :methods => :has_issues,
        :except => [:updated_at, :created_at],
        :include => {:nodes => {:except => [:id, :station_id]}}
