@@ -6,6 +6,7 @@ const circleStyle = {
 
 let allStations = [];
 let allLines = [];
+let currentCircle;
 
 function generatePage() {
   fetch("http://localhost:3000/lines")
@@ -198,6 +199,7 @@ function generatePage() {
       stationCircles.forEach(circle => {
         circle.addEventListener("click", () => {
           openStationDetails(event);
+          currentCircle = event.target;
         });
       });
     });

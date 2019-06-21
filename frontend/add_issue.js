@@ -33,7 +33,7 @@ function createNewIssue() {
   let form = event.target;
   let lineId = form[0].dataset.line_id;
   let stationId = form[6].dataset.station_id;
-  //debugger;
+
   let newIssue = {
     second_station_line_id: form[1].value,
     direction: form[2].value,
@@ -51,7 +51,9 @@ function createNewIssue() {
     body: JSON.stringify(newIssue)
   };
 
-  return fetch(ISSUE_URL, configObj);
+  return fetch(ISSUE_URL, configObj).then(() =>
+    currentCircle.setAttribute("stroke", "red")
+  );
 }
 
 function openIssueForm(event) {
@@ -62,7 +64,7 @@ function openIssueForm(event) {
   let hiddenInput = document.createElement("input");
   hiddenInput.hidden = true;
   hiddenInput.dataset.station_id = event.target.dataset.station_id;
-  //debugger;
+
   issueForm.appendChild(hiddenInput);
   //fetchAndSaveAllStations().then(() => {
   populateStationsDropdown();

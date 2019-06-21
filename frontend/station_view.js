@@ -29,14 +29,14 @@ function openStationDetails(event) {
   let stationAddress = event.target.parentElement.__data__.address;
   let stationAccess = event.target.parentElement.__data__.accessible;
   let openTime = event.target.parentElement.__data__.open_time;
-  let closeTime = event.target.parentElement.__data__.open_time;
+  let closeTime = event.target.parentElement.__data__.close_time;
   let stationId = event.target.parentElement.__data__.id;
   // fetch and display the issues for this station if they exist (CONTROLLER!)
 
   fetchStationDetails(stationId);
   StNameLi.innerText = `${stationName}`;
   StAddressLi.innerText = `Address: ${stationAddress}`;
-  StTimesLi.innerText = `Hours:${openTime} - ${closeTime}`;
+  StTimesLi.innerText = `Hours: 0${openTime}:00 - 0${closeTime}:00`;
   StAccessLi.innerText = `Accessible: ${stationAccess}`;
 
   addIssueBtn.dataset.station = stationName;

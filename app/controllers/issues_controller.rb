@@ -24,12 +24,6 @@ class IssuesController < ApplicationController
       second_station_line_id ? second_station_line_id = second_station_line_id.id : nil
     end
 
-    if second_station_line_id
-      puts "YESSSSS"
-    else
-      puts "noooooo"
-    end
-byebug
     issue = Issue.create(
       issue_type: params["issue_type"],
       duration: params["duration"],
@@ -37,8 +31,13 @@ byebug
       station_line_id: station_line_id,
       second_station_line_id: second_station_line_id,
     )
-
     #find second stationline using the name "All Saints" and the line_id 27?
     #HERE 19/06/19
   end
+
+  # private:
+
+  # def post_params
+  #   params.require(:issue).permit(:issue_type, :duration, :direction, :station_line_id, :second_station_line_id)
+  # end
 end
