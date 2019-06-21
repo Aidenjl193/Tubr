@@ -1,7 +1,8 @@
 class LinesController < ApplicationController
 
   def index
-    lines = Line.all.select{|line|  line[:name] == "Circle line"}
+    filters = ["Circle line", "Bakerloo line"]
+    lines = Line.all.select{|line|  filters.any?{|filter| filter == line.name}}
     
     render json: lines.to_json(
              :methods => :path_coords,

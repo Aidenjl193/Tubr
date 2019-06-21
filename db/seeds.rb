@@ -131,6 +131,7 @@ clean_line([
              "Mile End",
            ])
 
+
 circle_statLines = StationLine.all.select { |sl| sl.line_id == 9 }
 
 directions = ["Northbound", "Southbound", "Eastbound", "Westbound"]
@@ -146,3 +147,17 @@ durations += days
                direction: directions.sample,
                second_station_line_id: StationLine.all.sample.id )
 end
+
+clean_line([
+             "Harrow & Wealdstone",
+             "Kenton",
+             "South Kenton",
+             "North Wembley",
+             "Stonebridge Park",
+             "Harlesden",
+             "Willesden Junction",
+             "Kensal Green",
+             "Kilburn Park"
+           ])
+
+
