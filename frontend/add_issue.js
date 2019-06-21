@@ -40,6 +40,8 @@ function openIssueForm(event) {
 }
 
 function populateStationsDropdown() {
+  selectStn.innerHTML = "";
+  selectStn.innerHTML = `<option value="default">Single Station Issue</option>`;
   allStations.sort((a, b) => (a.name > b.name ? 1 : -1));
   allStations.forEach(station => {
     //stnNames.push(station.name);
@@ -50,16 +52,22 @@ function populateStationsDropdown() {
 }
 
 function populateIssueAttributeDropdowns() {
+  selectType.innerHTML = "";
+  selectType.innerHTML = `<option value="default">Please Select Issue Type</option>`;
   issueTypes.forEach(type => {
     let dropDownOption = document.createElement("option");
     dropDownOption.innerText = type;
     selectType.appendChild(dropDownOption);
   });
+  selectDirection.innerHTML = "";
+  selectDirection.innerHTML = `<option value="default">Not Applicable</option>`;
   directions.forEach(direction => {
     let dropDownOption = document.createElement("option");
     dropDownOption.innerText = direction;
     selectDirection.appendChild(dropDownOption);
   });
+  selectDuration.innerHTML = "";
+  selectDuration.innerHTML = `<option value="default">How long should it last?</option>`;
   durations.forEach(type => {
     let dropDownOption = document.createElement("option");
     dropDownOption.innerText = type;
