@@ -8,11 +8,10 @@ let allStations = [];
 let allLines = [];
 let currentCircle;
 
-function generatePage() {
-  fetch("http://localhost:3000/lines")
-    .then(resp => resp.json())
-    .then(json => {
-      let path_coords = json.path_coords;
+let filterBox = document.querySelector("#filter-box");
+
+function generateMap(json) {
+	 let path_coords = json.path_coords;
       allLines = json;
       var x = d3.scaleLinear();
 
@@ -202,6 +201,46 @@ function generatePage() {
           currentCircle = event.target;
         });
       });
+}
+
+function populateFilters() {
+	if(filterBox.dataset.open == "false") {
+		filterBox.dataset.open = "true"
+		filterBox.style.width = "300px";
+
+		title = document.createElement("h3");
+		title.innerText = "Filters";
+
+		filterBox.appendChild(title);
+
+		filterBox.appendChild(generateFilterCard({line_name: "Circle Line", color: "yellow"}))
+	}else{
+		filterBox.dataset.open = "false"
+		filterBox.innerHTML = "";
+		filterBox.style.width = "30px";fi
+	}
+}
+
+function generateFilterCard(line) {
+	card = document.createElement("div")
+	card.className = "filter-card"
+
+	h4 = document.createElement("h4")
+	h4.innerText = line.line_name;
+
+	colorSquare = document.createElement("div")
+	colorSquare.style.backgroundColor = line.color;
+
+	card.append(h4, colorSquare);
+
+	return card;
+}
+
+function generatePage() {
+  fetch("http://localhost:3000/lines")
+    .then(resp => resp.json())
+    .then(json => {
+		generateMap(json);
     });
 }
 
@@ -209,5 +248,14 @@ fetch("http://localhost:3000/stations")
   .then(resp => resp.json())
   .then(json => {
     allStations = json;
-    generatePage();
+      generatePage();
   });
+
+
+function init() {
+	  filterBox.addEventListener("click", (e) => {
+		  populateFilters();
+	  })
+}
+
+init();

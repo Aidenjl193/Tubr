@@ -6,8 +6,8 @@ svg {
 body {
   font-family: 'Hammersmith One', sans-serif;
   /* Below is Ross's stuff */
-  /* margin: 0;
-  padding: 0; */
+   margin: 0;
+  padding: 0;
 
 }
 
@@ -54,4 +54,57 @@ h1 {
 	color: gray;
 	text-align: center;
 	width: 100%;
+}
+
+h3 {
+	font-size: 40px;
+	color: gray;
+	text-align: center;
+	width: 100%;
+}
+
+#filter-box {
+	width: 30px;
+
+	position: absolute;
+	
+	-webkit-box-shadow: 7px 10px 29px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 7px 10px 29px 0px rgba(0,0,0,0.75);
+	box-shadow: 7px 10px 29px 0px rgba(0,0,0,0.75);
+	transition-duration: 0.2s;
+	height: 100vh;
+
+	background-color: white;
+}
+
+#filter-box:hover {
+	width: 60px;
+}
+
+.filter-card {
+	width: 250px;
+	color: white;
+	height: 50px;
+
+	-webkit-box-shadow: 1px 1px 12px 0px rgba(0,0,0,0.28);
+	-moz-box-shadow: 1px 1px 12px 0px rgba(0,0,0,0.28);
+	box-shadow: 1px 1px 12px 0px rgba(0,0,0,0.28);
+
+	margin: auto;
+	padding-top: 15px;
+
+	display: flex;
+}
+
+.filter-card h4 {
+	color: gray;
+	text-align: center;
+	width: 80%;
+	margin: 0;
+	font-size: 30px;
+}
+
+.filter-card div {
+	width: 30px;
+	height: 30px;
 }

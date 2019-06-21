@@ -3,7 +3,12 @@ class StationLine < ApplicationRecord
   belongs_to :line
   has_many :issues
 
+  @_node = nil
+
   def node
-    self.station.nodes[self.node_index]
+    if(!@_node)
+      @_node = self.station.nodes[self.node_index]
+    end
+    @_node
   end
 end
