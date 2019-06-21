@@ -8,6 +8,7 @@
 require "json"
 require "nokogiri"
 require "open-uri"
+require "faker"
 
 lines_page = Nokogiri::HTML.parse(open("https://en.wikipedia.org/wiki/London_Underground"))
 table_rows = lines_page.css("table.wikitable tbody tr")
@@ -58,7 +59,8 @@ stations_hash.each do |station_hash|
     station = Station.create(name: station_hash["name"],
                              accessible: station_hash["accessible"],
                              open_time: rand(3) + 5,
-                             close_time: rand(3)
+                             close_time: rand(3),
+                             address: Faker::Address.street_address
                             )
     if(!station_hash["nodes"])
 
